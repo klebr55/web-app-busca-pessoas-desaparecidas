@@ -13,6 +13,7 @@ Os dados abaixo referem-se à minha inscrição no processo seletivo. Caso algum
 - Data da inscrição: 08/09/2025
 - LinkedIn: https://www.linkedin.com/in/klebervinicius08/
 - GitHub: https://github.com/klebr55
+- Projeto disponível na Vercel: https://web-app-busca-pessoas-desaparecidas.vercel.app
 
 ## Requisitos
 
