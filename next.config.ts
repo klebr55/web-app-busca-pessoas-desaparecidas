@@ -29,7 +29,7 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "desaparecidos.pjc.mt.gov.br",
         port: "",
-        pathname: "/assets/img/**",
+        pathname: "/**",
       },
     ],
 

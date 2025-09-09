@@ -17,6 +17,9 @@ import {
   FaFilePdf,
   FaFileVideo,
   FaFile,
+  FaWhatsapp,
+  FaFileArrowDown,
+  FaCircleExclamation,
 } from "react-icons/fa6";
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
@@ -80,6 +83,7 @@ export default function PaginaDetalhes() {
     items: ModalItem[];
     index: number;
   }>({ open: false, items: [], index: 0 });
+  const [isModalSemCartazOpen, setIsModalSemCartazOpen] = useState(false);
 
   const openModal = (items: ModalItem[], index: number) => {
     setModal({ open: true, items, index });
@@ -180,6 +184,24 @@ export default function PaginaDetalhes() {
     pessoa.dataDesaparecimento,
   );
 
+  const hasCartazOficial = (() => {
+    const hasValidUrl =
+      pessoa.cartaz?.urlCartaz &&
+      typeof pessoa.cartaz.urlCartaz === "string" &&
+      pessoa.cartaz.urlCartaz.trim() !== "";
+    const hasValidType =
+      pessoa.cartaz?.tipoCartaz &&
+      [
+        "PDF_DESAPARECIDO",
+        "PDF_LOCALIZADO",
+        "JPG_DESAPARECIDO",
+        "JPG_LOCALIZADO",
+        "INSTA_DESAPARECIDO",
+        "INSTA_LOCALIZADO",
+      ].includes(pessoa.cartaz.tipoCartaz);
+    return Boolean(hasValidUrl && hasValidType);
+  })();
+
   const compartilharWhatsapp = () => {
     try {
       const baseUrl = typeof window !== "undefined" ? window.location.href : "";
@@ -214,19 +236,29 @@ export default function PaginaDetalhes() {
   const gerarCartaz = async () => {
     const largura = 1080;
     const altura = 1350;
+    const dpr = Math.max(1, Math.min(2, Math.floor(window.devicePixelRatio || 1)));
+
     const canvas = document.createElement("canvas");
-    canvas.width = largura;
-    canvas.height = altura;
+    canvas.width = largura * dpr;
+    canvas.height = altura * dpr;
+    canvas.style.width = `${largura}px`;
+    canvas.style.height = `${altura}px`;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
+    ctx.scale(dpr, dpr);
 
-    const grad = ctx.createLinearGradient(0, 0, 0, altura);
-    grad.addColorStop(0, "#0f172a");
-    grad.addColorStop(0.55, "#0f172a");
-    grad.addColorStop(1, "#022c22");
-    ctx.fillStyle = grad;
+    
+    const fundo = ctx.createLinearGradient(0, 0, 0, altura);
+    fundo.addColorStop(0, "#0b1220");
+    fundo.addColorStop(0.55, "#0b1220");
+    fundo.addColorStop(1, "#06251f");
+    ctx.fillStyle = fundo;
     ctx.fillRect(0, 0, largura, altura);
 
+    const paddingX = 72;
+    const topH = Math.round(altura * 0.6);
+
+    
     const fotoUrl = pessoa.urlFoto || pessoa.foto || "";
     let fotoCarregada = false;
     if (fotoUrl) {
@@ -239,22 +271,19 @@ export default function PaginaDetalhes() {
           img.src = fotoUrl;
         });
 
-        const targetH = Math.round(altura * 0.52);
-        const scale = Math.max(largura / img.width, targetH / img.height);
+        const scale = Math.max(largura / img.width, topH / img.height);
         const drawW = img.width * scale;
         const drawH = img.height * scale;
         const dx = (largura - drawW) / 2;
-        const dy = (targetH - drawH) / 2;
-        ctx.save();
-        ctx.globalAlpha = 0.92;
+        const dy = (topH - drawH) / 2;
         ctx.drawImage(img, dx, dy, drawW, drawH);
-        ctx.restore();
 
-        const overlay = ctx.createLinearGradient(0, 0, 0, targetH);
+        
+        const overlay = ctx.createLinearGradient(0, topH - 260, 0, topH);
         overlay.addColorStop(0, "rgba(0,0,0,0)");
-        overlay.addColorStop(1, "rgba(0,0,0,0.55)");
+        overlay.addColorStop(1, "rgba(0,0,0,0.65)");
         ctx.fillStyle = overlay;
-        ctx.fillRect(0, 0, largura, targetH);
+        ctx.fillRect(0, topH - 260, largura, 260);
         fotoCarregada = true;
       } catch {
         fotoCarregada = false;
@@ -263,94 +292,150 @@ export default function PaginaDetalhes() {
 
     if (!fotoCarregada) {
       ctx.fillStyle = "#1e293b";
-      ctx.fillRect(0, 0, largura, Math.round(altura * 0.52));
+      ctx.fillRect(0, 0, largura, topH);
       ctx.fillStyle = "#94a3b8";
-      ctx.font = '500 42px "Inter", system-ui';
+      ctx.font = '600 44px "Inter", system-ui';
       ctx.textAlign = "center";
-      ctx.fillText("FOTO", largura / 2, Math.round(altura * 0.27));
+      ctx.fillText("SEM FOTO", largura / 2, Math.round(topH * 0.52));
     }
 
-    const paddingX = 80;
-    let cursorY = Math.round(altura * 0.55);
+    
+    const statusTexto = pessoa.status === "DESAPARECIDO" ? "DESAPARECIDO(A)" : "LOCALIZADO(A)";
+    const statusBg = pessoa.status === "DESAPARECIDO" ? "#dc2626" : "#059669";
+    const pillX = paddingX;
+    const pillY = 24;
+    const pillH = 40;
+    ctx.font = '800 20px "Inter", system-ui';
+    const pillTextW = ctx.measureText(statusTexto).width;
+    const pillW = Math.ceil(pillTextW + 24);
+    ctx.fillStyle = statusBg;
+    ctx.beginPath();
+    const r = 10;
+    ctx.moveTo(pillX + r, pillY);
+    ctx.lineTo(pillX + pillW - r, pillY);
+    ctx.quadraticCurveTo(pillX + pillW, pillY, pillX + pillW, pillY + r);
+    ctx.lineTo(pillX + pillW, pillY + pillH - r);
+    ctx.quadraticCurveTo(
+      pillX + pillW,
+      pillY + pillH,
+      pillX + pillW - r,
+      pillY + pillH,
+    );
+    ctx.lineTo(pillX + r, pillY + pillH);
+    ctx.quadraticCurveTo(pillX, pillY + pillH, pillX, pillY + pillH - r);
+    ctx.lineTo(pillX, pillY + r);
+    ctx.quadraticCurveTo(pillX, pillY, pillX + r, pillY);
+    ctx.closePath();
+    ctx.fill();
+    ctx.fillStyle = "#ffffff";
     ctx.textAlign = "left";
+    ctx.fillText(statusTexto, pillX + 12, pillY + 26);
 
-    ctx.fillStyle = "#f1f5f9";
-    ctx.font = '800 70px "Inter", system-ui';
+    
     const nome = pessoa.nome.toUpperCase();
-    const maxWidth = largura - paddingX * 2;
+    const maxNomeW = largura - paddingX * 2;
+    ctx.textAlign = "left";
+    ctx.fillStyle = "#ffffff";
+    ctx.font = '900 68px "Inter", system-ui';
 
-    const nomeLinhas: string[] = [];
-    let resto = nome;
-    while (resto.length > 0) {
-      let slice = resto;
-      while (ctx.measureText(slice).width > maxWidth && slice.includes(" ")) {
-        slice = slice.substring(0, slice.lastIndexOf(" "));
+    const wrap = (text: string, maxW: number, maxLines = 2) => {
+      const words = text.split(/\s+/);
+      const lines: string[] = [];
+      let line = "";
+      for (let i = 0; i < words.length; i++) {
+        const test = line ? line + " " + words[i] : words[i];
+        if (ctx.measureText(test).width <= maxW) {
+          line = test;
+        } else {
+          if (lines.length === maxLines - 1) {
+            
+            let shortened = test;
+            while (ctx.measureText(shortened + "…").width > maxW && shortened.length) {
+              shortened = shortened.substring(0, shortened.lastIndexOf(" ")) || shortened.slice(0, -1);
+            }
+            lines.push(shortened + "…");
+            return lines;
+          }
+          lines.push(line);
+          line = words[i];
+        }
       }
-      nomeLinhas.push(slice);
-      resto = resto.slice(slice.length).trimStart();
-      if (nomeLinhas.length === 3) {
-        if (resto) nomeLinhas[nomeLinhas.length - 1] += "…";
-        break;
-      }
-    }
-    nomeLinhas.forEach((l) => {
-      ctx.fillText(l, paddingX, cursorY);
-      cursorY += 78;
+      if (line) lines.push(line);
+      return lines.slice(0, maxLines);
+    };
+
+    const nomeLinhas = wrap(nome, maxNomeW, 2);
+    let baseY = topH - 100 - (nomeLinhas.length - 1) * 72;
+    nomeLinhas.forEach((l, idx) => {
+      ctx.fillText(l, paddingX, baseY + idx * 72);
     });
 
-    ctx.font = '500 40px "Inter", system-ui';
+   
+    ctx.font = '700 28px "Inter", system-ui';
     ctx.fillStyle = "#e2e8f0";
-    ctx.fillText(`${pessoa.idade} anos • ${pessoa.sexo}`, paddingX, cursorY);
-    cursorY += 60;
+    ctx.fillText(`${pessoa.idade} anos • ${pessoa.sexo}`, paddingX, topH - 40);
 
-    ctx.font = '700 44px "Inter", system-ui';
-    ctx.fillStyle = pessoa.status === "DESAPARECIDO" ? "#dc2626" : "#059669";
-    ctx.fillText(
-      pessoa.status === "DESAPARECIDO" ? "DESAPARECIDO(A)" : "LOCALIZADO(A)",
-      paddingX,
-      cursorY,
-    );
-    cursorY += 70;
+    
+    const panelY = topH;
+    ctx.fillStyle = "#0b2335";
+    ctx.fillRect(0, panelY, largura, altura - panelY);
 
-    ctx.font = '600 34px "Inter", system-ui';
+ 
+    let cursorY = panelY + 80;
+    ctx.textAlign = "left";
     ctx.fillStyle = "#f8fafc";
+    ctx.font = '800 36px "Inter", system-ui';
     ctx.fillText("Dados:", paddingX, cursorY);
-    cursorY += 50;
+    cursorY += 48;
 
-    ctx.font = '400 30px "Inter", system-ui';
+    ctx.font = '500 30px "Inter", system-ui';
     ctx.fillStyle = "#e2e8f0";
     const linhasInfo: string[] = [
       `Data: ${formatarData(pessoa.dataDesaparecimento)}`,
-      pessoa.ultimaOcorrencia?.localDesaparecimentoConcat ||
-      pessoa.localDesaparecimento
+      pessoa.ultimaOcorrencia?.localDesaparecimentoConcat || pessoa.localDesaparecimento
         ? `Local: ${pessoa.ultimaOcorrencia?.localDesaparecimentoConcat || pessoa.localDesaparecimento}`
         : "",
     ].filter(Boolean);
+
+    
+    const truncateToWidth = (text: string, maxW: number) => {
+      if (ctx.measureText(text).width <= maxW) return text;
+      let lo = 0, hi = text.length;
+      while (lo < hi) {
+        const mid = Math.floor((lo + hi) / 2);
+        const sample = text.slice(0, mid) + "…";
+        if (ctx.measureText(sample).width <= maxW) lo = mid + 1; else hi = mid;
+      }
+      return text.slice(0, lo - 1) + "…";
+    };
+
+    const infoMaxW = largura - paddingX * 2;
     linhasInfo.forEach((l) => {
-      ctx.fillText(l, paddingX, cursorY);
-      cursorY += 46;
+      ctx.fillText(truncateToWidth(l, infoMaxW), paddingX, cursorY);
+      cursorY += 44;
     });
 
-    cursorY += 10;
     if (pessoa.status === "DESAPARECIDO") {
-      ctx.font = '700 42px "Inter", system-ui';
+      cursorY += 8;
+      ctx.font = '900 40px "Inter", system-ui';
       ctx.fillStyle = "#f59e0b";
       ctx.fillText("AJUDE A ENCONTRAR", paddingX, cursorY);
-      cursorY += 60;
+      cursorY += 56;
     }
 
-    ctx.font = '500 28px "Inter", system-ui';
+    ctx.font = '500 24px "Inter", system-ui';
     ctx.fillStyle = "#94a3b8";
-    ctx.fillText("Compartilhe • Portal Desenvolve MT", paddingX, altura - 70);
+    ctx.fillText("Compartilhe • Portal Desenvolve MT", paddingX, altura - 48);
+
+    const slug = pessoa.nome
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
 
     canvas.toBlob((blob) => {
       if (!blob) return;
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
-      const slug = nome
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-|-$/g, "");
       a.download = `cartaz-${slug}.png`;
       a.href = url;
       a.click();
@@ -439,7 +524,7 @@ export default function PaginaDetalhes() {
                   }
                   alt={`Foto de ${pessoa.nome}`}
                   fill
-                  className="object-contain md:object-cover w-full h-full transition duration-500 group-hover:scale-[1.01] group-hover:brightness-105"
+                  className="object-cover md:object-cover w-full h-full transition duration-500 group-hover:scale-[1.01] group-hover:brightness-105"
                   unoptimized
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 25vw"
                   onError={(e) => {
@@ -546,39 +631,22 @@ export default function PaginaDetalhes() {
                       onClick={compartilharWhatsapp}
                       className="inline-flex items-center justify-center gap-1.5 rounded-md bg-emerald-600/90 px-2.5 py-2 text-[11px] font-semibold text-white shadow ring-1 ring-emerald-500/20 hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-400 transition"
                     >
-                      <svg
-                        className="w-4 h-4"
-                        fill="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.214 5.3 5.32.207 11.58.207c3.18 0 6.167 1.24 8.413 3.488a11.82 11.82 0 013.493 8.401c-.003 6.26-5.1 11.367-11.385 11.367a11.9 11.9 0 01-5.916-1.566L.057 24zm6.597-3.807c1.676.995 3.276 1.591 4.988 1.591 5.028 0 9.132-4.096 9.135-9.123.003-5.034-4.082-9.126-9.112-9.126-5.03 0-9.117 4.089-9.12 9.12 0 1.837.532 3.592 1.544 5.095l-.999 3.648 3.564-.205zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.173.198-.297.298-.495.099-.198.05-.372-.025-.521-.074-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.099 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z" />
-                      </svg>
+                      <FaWhatsapp className="w-4 h-4" />
                       <span className="hidden sm:inline">WhatsApp</span>
                       <span className="sm:hidden">Wpp</span>
                     </button>
                     <button
-                      onClick={gerarCartaz}
+                      onClick={() => {
+                        if (!hasCartazOficial) {
+                          setIsModalSemCartazOpen(true);
+                        } else {
+                          gerarCartaz();
+                        }
+                      }}
                       className="inline-flex items-center justify-center gap-1.5 rounded-md bg-slate-800/90 px-2.5 py-2 text-[11px] font-semibold text-white shadow ring-1 ring-slate-700/30 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400 transition"
                       aria-label="Baixar cartaz PNG"
                     >
-                      <svg
-                        className="w-4 h-4"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="1.8"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M12 16v-8m0 8l-3-3m3 3l3-3M4 12a8 8 0 1116 0 8 8 0 01-16 0z"
-                        />
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M6 20h12"
-                        />
-                      </svg>
+                      <FaFileArrowDown className="w-4 h-4" />
                       <span className="hidden sm:inline">Cartaz</span>
                       <span className="sm:hidden">PNG</span>
                     </button>
@@ -1094,19 +1162,7 @@ export default function PaginaDetalhes() {
                           rel="noopener noreferrer"
                           className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold text-sm rounded-lg hover:bg-blue-700 transition-all"
                         >
-                          <svg
-                            className="w-4 h-4 mr-2"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                            />
-                          </svg>
+                          <FaFileArrowDown className="w-4 h-4 mr-2" />
                           BAIXAR CARTAZ
                         </a>
                       )}
@@ -1209,6 +1265,45 @@ export default function PaginaDetalhes() {
             className="absolute inset-0 -z-10"
             aria-hidden="true"
           />
+        </div>
+      )}
+
+      {isModalSemCartazOpen && (
+        <div className="fixed inset-0 z-[9998] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="w-full max-w-md rounded-2xl bg-white shadow-xl ring-1 ring-black/10 p-6">
+            <div className="flex items-start gap-3">
+              <div className="mt-0.5 flex h-9 w-9 items-center justify-center rounded-full bg-amber-100 text-amber-700">
+                <FaCircleExclamation className="h-5 w-5" />
+              </div>
+              <div className="flex-1">
+                <h4 className="text-base font-semibold text-slate-900">
+                  Cartaz oficial indisponível
+                </h4>
+                <p className="mt-1.5 text-sm text-slate-600">
+                  A API não retornou um cartaz oficial para esta pessoa. Você pode gerar um cartaz compartilhável agora mesmo.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 flex flex-col sm:flex-row gap-2 sm:justify-end">
+              <button
+                onClick={() => setIsModalSemCartazOpen(false)}
+                className="inline-flex items-center justify-center rounded-md border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+              >
+                Fechar
+              </button>
+              <button
+                onClick={() => {
+                  setIsModalSemCartazOpen(false);
+                  gerarCartaz();
+                }}
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-slate-800 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-900"
+              >
+                <FaFileArrowDown className="h-4 w-4" />
+                Gerar cartaz agora
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

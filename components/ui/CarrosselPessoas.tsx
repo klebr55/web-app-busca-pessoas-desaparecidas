@@ -3,7 +3,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { motion, PanInfo, useMotionValue, useTransform } from "framer-motion";
+import { motion, PanInfo } from "framer-motion";
 import { useCarrosselPessoas } from "@/api/hooks";
 import {
   FaUser,
@@ -21,8 +21,6 @@ export default function CarrosselPessoas() {
   const [isDragging, setIsDragging] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const x = useMotionValue(0);
-  const xSmooth = useTransform(x, (value) => value);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -40,16 +38,6 @@ export default function CarrosselPessoas() {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % pessoas.length);
     }, 4000);
-
-    return () => clearInterval(interval);
-  }, [isDragging, isMobile, pessoas.length]);
-
-  useEffect(() => {
-    if (isDragging || !isMobile || pessoas.length === 0) return;
-
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % pessoas.length);
-    }, 2500);
 
     return () => clearInterval(interval);
   }, [isDragging, isMobile, pessoas.length]);
@@ -79,8 +67,7 @@ export default function CarrosselPessoas() {
       }
     }
 
-    setIsDragging(false);
-    x.set(0);
+  setIsDragging(false);
   };
 
   const handleDragStart = () => {
@@ -125,10 +112,11 @@ export default function CarrosselPessoas() {
 
   const Card = ({ pessoa, index }: { pessoa: any; index: number }) => (
     <motion.div
+      layout
       className="flex-shrink-0 w-[280px] md:w-[300px] group"
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.1 }}
+      transition={{ duration: 0.2, delay: Math.min(index * 0.06, 0.3) }}
     >
       <Link href={`/${pessoa.id}`}>
         <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col min-h-[400px] md:min-h-[430px] transform hover:scale-[1.02]">
@@ -193,6 +181,64 @@ export default function CarrosselPessoas() {
     </motion.div>
   );
 
+
+  const CardMobile = ({ pessoa }: { pessoa: any }) => (
+    <Link href={`/${pessoa.id}`} className="snap-start shrink-0 w-[280px]">
+      <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col min-h-[400px] transform hover:scale-[1.02]">
+        <div className="relative h-44 bg-slate-200 flex-shrink-0">
+          {pessoa.urlFoto || pessoa.foto ? (
+            <Image
+              src={pessoa.urlFoto || pessoa.foto || ""}
+              alt={pessoa.nome}
+              fill
+              className="object-cover"
+              sizes="280px"
+            />
+          ) : (
+            <div className="flex items-center justify-center h-full bg-gradient-to-br from-slate-200 to-slate-300">
+              <FaUser className="w-16 h-16 text-slate-400" />
+            </div>
+          )}
+          <div className="absolute top-3 right-3">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-red-600 text-white">
+              {getStatusText(pessoa.status, pessoa.sexo)}
+            </span>
+          </div>
+        </div>
+        <div className="p-5 flex flex-col flex-1">
+          <h3 className="text-lg font-bold text-slate-900 mb-3 line-clamp-2">
+            {pessoa.nome}
+          </h3>
+          <div className="space-y-2 flex-1">
+            <div className="flex items-center text-slate-600 text-sm">
+              <FaUser className="w-4 h-4 mr-3 text-[#101828] flex-shrink-0" />
+              <span>{pessoa.idade} anos</span>
+            </div>
+            <div className="flex items-center text-slate-600 text-sm">
+              <FaTransgender className="w-4 h-4 mr-3 text-purple-500 flex-shrink-0" />
+              <span>{pessoa.sexo === "MASCULINO" ? "Masculino" : "Feminino"}</span>
+            </div>
+            <div className="flex items-center text-slate-600 text-sm">
+              <FaCalendarMinus className="w-4 h-4 mr-3 text-orange-500 flex-shrink-0" />
+              <span>{formatarData(pessoa.dataDesaparecimento)}</span>
+            </div>
+            {(pessoa.ultimaOcorrencia?.localDesaparecimentoConcat || pessoa.localDesaparecimento) && (
+              <div className="flex items-start text-slate-600 text-sm">
+                <FaLocationDot className="w-4 h-4 mr-3 mt-0.5 text-red-500 flex-shrink-0" />
+                <span className="line-clamp-2">
+                  {pessoa.ultimaOcorrencia?.localDesaparecimentoConcat || pessoa.localDesaparecimento}
+                </span>
+              </div>
+            )}
+          </div>
+          <div className="mt-4 pt-3 border-t border-slate-100">
+            <span className="text-[#101828] font-semibold text-sm">Ver detalhes →</span>
+          </div>
+        </div>
+      </div>
+    </Link>
+  );
+
   return (
     <section className="py-12 md:py-16 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       <div className="container mx-auto px-4">
@@ -206,41 +252,55 @@ export default function CarrosselPessoas() {
           </p>
         </div>
 
-        <div className="relative overflow-hidden">
+    
+        {isMobile ? (
+          <div className="relative overflow-hidden">
+            <div
+              className="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-pb-4 pb-2 [-ms-overflow-style:none] [scrollbar-width:none]"
+              style={{ scrollbarWidth: "none" as any }}
+            >
+              {pessoas.map((p) => (
+                <CardMobile key={p.id} pessoa={p} />
+              ))}
+            </div>
+            <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-slate-50 via-blue-50 to-transparent z-10"></div>
+            <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-slate-50 via-blue-50 to-transparent z-10"></div>
+          </div>
+        ) : (
+          <div className="relative overflow-hidden">
           <motion.div
             ref={containerRef}
             className="flex gap-4 md:gap-6 cursor-grab active:cursor-grabbing"
             drag="x"
-            dragConstraints={{
-              left: -(
-                pessoas.length * (isMobile ? 290 : 310) -
-                (isMobile
-                  ? window.innerWidth - 32
-                  : containerRef.current?.offsetWidth || 0)
-              ),
-              right: 0,
-            }}
+            dragConstraints={(() => {
+              const itemW = isMobile ? 290 : 310;
+              const viewportW = isMobile
+                ? Math.max(320, window.innerWidth - 32)
+                : containerRef.current?.offsetWidth || 0;
+              const maxScroll = pessoas.length * itemW - viewportW;
+              const left = Number.isFinite(maxScroll) && maxScroll > 0 ? -maxScroll : 0;
+              return { left, right: 0 } as const;
+            })()}
             dragElastic={0.1}
             dragMomentum={false}
             onDragStart={handleDragStart}
             onDragEnd={handleDragEnd}
-            style={{ x }}
-            animate={{
-              x: -currentIndex * (isMobile ? 290 : 310),
-            }}
+            animate={
+              isDragging
+                ? undefined
+                : {
+                    x: -currentIndex * (isMobile ? 290 : 310),
+                    opacity: 1,
+                  }
+            }
             transition={{
               type: "spring",
-              stiffness: 300,
-              damping: 30,
-              duration: isMobile ? 0.4 : 0.6,
+              stiffness: 260,
+              damping: 28,
             }}
           >
             {pessoas.map((pessoa, index) => (
-              <Card
-                key={`${pessoa.id}-${index}`}
-                pessoa={pessoa}
-                index={index}
-              />
+              <Card key={pessoa.id} pessoa={pessoa} index={index} />
             ))}
           </motion.div>
 
@@ -312,7 +372,8 @@ export default function CarrosselPessoas() {
 
           <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-8 md:w-20 bg-gradient-to-r from-slate-50 via-blue-50 to-transparent z-10"></div>
           <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 md:w-20 bg-gradient-to-l from-slate-50 via-blue-50 to-transparent z-10"></div>
-        </div>
+          </div>
+        )}
 
         {isMobile && (
           <div className="text-center mt-4">

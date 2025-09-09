@@ -22,7 +22,11 @@ export function PessoaCard({ pessoa, className = "" }: PessoaCardProps) {
     }
   };
 
-  const imagemSrc = pessoa.urlFoto || pessoa.foto || "/placeholder-avatar.svg";
+  const imagemSrc = (pessoa.urlFoto && pessoa.urlFoto.trim() !== "")
+    ? pessoa.urlFoto
+    : (pessoa.foto && pessoa.foto.trim() !== "")
+      ? pessoa.foto
+      : "/placeholder-avatar.svg";
   const isDesaparecido = pessoa.status === "DESAPARECIDO";
 
   return (
@@ -34,19 +38,14 @@ export function PessoaCard({ pessoa, className = "" }: PessoaCardProps) {
         ${className}
       `}
       >
-        <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
+        <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40 h-60">
           <Image
             src={imagemSrc}
             alt={`Foto de ${pessoa.nome}`}
-            width={400}
-            height={300}
-            className="w-full h-60 object-cover"
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-
-              target.src = "/placeholder-avatar.svg";
-            }}
-            unoptimized={true}
+            fill
+            sizes="(max-width: 768px) 100vw, 400px"
+            className="object-cover"
+            unoptimized
           />
 
           <div className="absolute inset-0 w-full h-full bg-gradient-to-tr from-transparent via-transparent to-black/60"></div>
