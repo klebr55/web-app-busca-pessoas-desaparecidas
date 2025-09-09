@@ -1,0 +1,1279 @@
+<svg width="17500" height="23000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+ <defs>
+  <clipPath clipPathUnits="userSpaceOnUse" id="presentation_clip_path">
+   <rect id="svg_1" height="29700" width="21000" y="-1900.137741" x="-2120.078621"/>
+  </clipPath>
+  <clipPath clipPathUnits="userSpaceOnUse" id="presentation_clip_path_shrink">
+   <rect id="svg_2" height="29641" width="20958" y="29" x="21"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <g id="svg_3"/>
+ </defs>
+ <defs>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-57356">
+   <path id="svg_4" d="m580,1141l583,-570l-583,-571l-584,571l584,570z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-57354">
+   <path id="svg_5" d="m8,1128l1129,0l0,-1128l-1129,0l0,1128z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-10146">
+   <path id="svg_6" d="m174,0l428,739l-428,742l1282,-742l-1282,-739zm1184,739l-1049,607l350,-607l699,0z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-10132">
+   <path id="svg_7" d="m2015,739l-739,-739l-559,0l543,543l-1086,0l0,393l1086,0l-543,545l557,0l741,-742z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-10007">
+   <path id="svg_8" d="m0,-2c-7,16 -16,29 -25,39l381,530c-94,256 -141,385 -141,387c0,25 13,38 40,38c9,0 21,-2 34,-5c21,4 42,12 65,25l27,-13l111,-251l280,301l64,-25l24,25c21,-10 41,-24 62,-43c-36,-69 -87,-143 -152,-222c-1,-1 -60,-68 -176,-200l180,-361c0,-27 -21,-55 -63,-84l16,-20c-10,-29 -28,-43 -55,-43c-31,0 -102,102 -215,305l-293,-457c-22,-34 -53,-51 -92,-51c-42,0 -63,17 -64,51c-7,9 -10,24 -10,44c0,9 1,19 2,30z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-10004">
+   <path id="svg_9" d="m285,-33c-103,0 -174,63 -211,189c-22,72 -33,177 -33,315c0,78 14,145 41,201c34,71 87,106 158,106c53,0 88,-31 106,-94l23,-176c8,-64 28,-97 59,-98l735,706c11,11 33,17 66,17c42,0 63,-15 63,-46l0,-122c0,-36 -10,-64 -30,-84l-820,-834c-52,-53 -104,-80 -157,-80z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-9679">
+   <path id="svg_10" d="m813,0c-181,0 -324,54 -430,161c-107,107 -160,250 -160,431c0,181 53,324 160,431c106,107 249,161 430,161c179,0 323,-54 432,-161c108,-107 162,-251 162,-431c0,-180 -54,-324 -162,-431c-109,-107 -253,-161 -432,-161z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-8226">
+   <path id="svg_11" d="m346,457c-73,0 -137,26 -191,78c-54,51 -81,114 -81,188c0,73 27,136 81,188c54,52 118,78 191,78c73,0 134,-26 185,-79c51,-51 77,-114 77,-187c0,-75 -25,-137 -76,-188c-50,-52 -112,-78 -186,-78z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-8211">
+   <path id="svg_12" d="m-4,459l1139,0l0,147l-1139,0l0,-147z"/>
+  </g>
+  <g transform="scale(0.00048828125,-0.00048828125) " id="bullet-char-template-61548">
+   <path id="svg_13" d="m173,740c0,163 58,303 173,419c116,115 255,173 419,173c163,0 302,-58 418,-173c116,-116 174,-256 174,-419c0,-163 -58,-303 -174,-418c-116,-116 -255,-174 -418,-174c-164,0 -303,58 -419,174c-115,115 -173,255 -173,418z"/>
+  </g>
+ </defs>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="23002" width="17502" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_14">
+   <g class="Master_Slide" id="id2">
+    <g class="Background" id="bg-id2"/>
+    <g class="BackgroundObjects" id="bo-id2"/>
+   </g>
+  </g>
+  <g id="svg_15" class="SlideGroup">
+   <g id="svg_16">
+    <g id="container-id1">
+     <g clip-path="url(#presentation_clip_path)" class="Slide" id="id1">
+      <g id="svg_17" class="Page">
+       <g id="svg_18" class="Group">
+        <g id="svg_19" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id3">
+          <rect id="svg_20" height="22791" width="17321" y="105.862259" x="84.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_21" d="m85.921379,4801.862259c1003,-1365 2053,-2710 3220,-4058c0,0 108,64 445,156c1145,312 2131,393 3568,-95c817,-315 1223,-576 1390,-699c791,532 1566,805 2769,980c1058,154 2668,-337 2699,-342c11,14 2253,2724 2448,3005c198,284 780,1050 780,1050c0,0 -869,1621 -966,2897c-98,1276 -20,1590 225,2535c242,941 1014,2944 304,5606c-301,1452 -1282,3086 -2727,4393c-1507,1228 -2666,1537 -3170,1688c-730,228 -1490,170 -1941,587c-407,376 -410,376 -421,390c-5,-8 -125,-256 -473,-448c-198,-109 -418,-240 -632,-284c-552,-114 -1056,-148 -2179,-585c-1122,-437 -2102,-1226 -2930,-2064c-858,-975 -1785,-2515 -2064,-3980c-278,-1465 -242,-2858 42,-3869c281,-1014 373,-1292 460,-1588c89,-295 376,-2052 -14,-3264c-390,-1209 -805,-1933 -833,-2011z" fill="rgb(198,167,67)"/>
+         </g>
+        </g>
+        <g id="svg_22" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id4">
+          <rect id="svg_23" height="1138" width="1267" y="20624.862259" x="7716.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_24" d="m7717.921379,20647.862259l454,-9l181,674l161,-679l454,-9l14,1114l-278,6l-11,-852l-209,855l-254,5l-231,-846l14,849l-281,6l-14,-1114z" fill="rgb(19,22,16)"/>
+         </g>
+        </g>
+        <g id="svg_25" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id5">
+          <rect id="svg_26" height="1127" width="1050" y="20602.862259" x="9103.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_27" d="m9104.921379,20622.862259l1044,-20l3,273l-351,6l14,838l-345,8l-14,-838l-348,5l-3,-272z" fill="rgb(19,22,16)"/>
+         </g>
+        </g>
+        <g id="svg_28" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id6">
+          <rect id="svg_29" height="3791" width="3061" y="4154.862259" x="13381.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_30" d="m14744.921379,4205.862259l1646,958l-925,883l293,1847l-2326,-1432l1220,-78l92,-8l0,-2170z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_31" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id7">
+          <rect id="svg_32" height="3690" width="2960" y="4204.862259" x="13432.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_33" d="m14744.921379,4205.862259l1646,958l-925,883l293,1847l-2326,-1432l1220,-78l92,-8l0,-2170z" fill="rgb(201,177,84)"/>
+         </g>
+        </g>
+        <g id="svg_34" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id8">
+          <rect id="svg_35" height="813" width="1387" y="5703.862259" x="13337.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_36" d="m14672.921379,6372.862259l-1243,92l-41,-710c529,189 883,381 1284,618z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_37" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id9">
+          <rect id="svg_38" height="712" width="1286" y="5753.862259" x="13387.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_39" d="m14672.921379,6372.862259l-1243,92l-41,-710c529,189 883,381 1284,618z" fill="rgb(179,145,14)"/>
+         </g>
+        </g>
+        <g id="svg_40" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id10">
+          <rect id="svg_41" height="3791" width="3061" y="4154.862259" x="1045.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_42" d="m2742.921379,4205.862259l-1646,958l925,883l-293,1847l2326,-1432l-1220,-78l-92,-8l0,-2170z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_43" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id11">
+          <rect id="svg_44" height="3690" width="2960" y="4204.862259" x="1096.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_45" d="m2742.921379,4205.862259l-1646,958l925,883l-293,1847l2326,-1432l-1220,-78l-92,-8l0,-2170z" fill="rgb(201,177,84)"/>
+         </g>
+        </g>
+        <g id="svg_46" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id12">
+          <rect id="svg_47" height="813" width="1387" y="5703.862259" x="2764.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_48" d="m2815.921379,6372.862259l1239,92l45,-710c-530,189 -886,381 -1284,618z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_49" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id13">
+          <rect id="svg_50" height="712" width="1286" y="5753.862259" x="2814.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_51" d="m2815.921379,6372.862259l1239,92l45,-710c-530,189 -886,381 -1284,618z" fill="rgb(179,145,14)"/>
+         </g>
+        </g>
+        <g id="svg_52" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id14">
+          <rect id="svg_53" height="3790" width="3061" y="13772.862259" x="13381.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_54" d="m14744.921379,17510.862259l1646,-961l-925,-885l293,-1841l-2326,1428l1220,78l92,9l0,2172z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_55" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id15">
+          <rect id="svg_56" height="3690" width="2960" y="13822.862259" x="13432.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_57" d="m14744.921379,17510.862259l1646,-961l-925,-885l293,-1841l-2326,1428l1220,78l92,9l0,2172z" fill="rgb(201,177,84)"/>
+         </g>
+        </g>
+        <g id="svg_58" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id16">
+          <rect id="svg_59" height="814" width="1387" y="15203.862259" x="13337.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_60" d="m14672.921379,15343.862259l-1243,-89l-41,711c529,-193 883,-385 1284,-622z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_61" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id17">
+          <rect id="svg_62" height="712" width="1286" y="15254.862259" x="13387.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_63" d="m14672.921379,15343.862259l-1243,-89l-41,711c529,-193 883,-385 1284,-622z" fill="rgb(179,145,14)"/>
+         </g>
+        </g>
+        <g id="svg_64" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id18">
+          <rect id="svg_65" height="3790" width="3061" y="13772.862259" x="1045.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_66" d="m2742.921379,17510.862259l-1646,-961l925,-885l-293,-1841l2326,1428l-1220,78l-92,9l0,2172z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_67" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id19">
+          <rect id="svg_68" height="3690" width="2960" y="13822.862259" x="1096.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_69" d="m2742.921379,17510.862259l-1646,-961l925,-885l-293,-1841l2326,1428l-1220,78l-92,9l0,2172z" fill="rgb(201,177,84)"/>
+         </g>
+        </g>
+        <g id="svg_70" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id20">
+          <rect id="svg_71" height="4508" width="12131" y="1932.862259" x="2678.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_72" d="m8742.921379,4876.862259c-1947,0 -3944,399 -6003,1501l0,-2172l0,-1058c2014,-794 4017,-1154 6003,-1154c1988,0 3991,360 6005,1154l0,1058l0,2172c-2059,-1102 -4056,-1501 -6005,-1501z" stroke-linejoin="round" stroke-width="122" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_73" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id21">
+          <rect id="svg_74" height="4386" width="12009" y="1993.862259" x="2739.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_75" d="m8742.921379,4876.862259c-1947,0 -3944,399 -6003,1501l0,-2172l0,-1058c2014,-794 4017,-1154 6003,-1154c1988,0 3991,360 6005,1154l0,1058l0,2172c-2059,-1102 -4056,-1501 -6005,-1501z" fill="rgb(198,167,67)"/>
+         </g>
+        </g>
+        <g id="svg_76" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id22">
+          <rect id="svg_77" height="3255" width="9759" y="2196.862259" x="3864.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_78" d="m3865.921379,3450.862259l788,-217c170,-45 301,-31 384,44c87,78 131,209 131,393c0,192 -47,354 -142,488c-92,133 -234,225 -426,278l-262,70l0,696l-473,131l0,-1883zm0,0l0,0zm473,677l117,-33c92,-26 159,-62 195,-112c36,-50 56,-103 56,-167c0,-58 -17,-106 -48,-136c-33,-34 -94,-37 -183,-14l-137,39l0,423zm0,0l0,0zm1014,-153c0,-309 70,-560 212,-752c142,-192 339,-309 593,-351c265,-42 465,11 604,156c142,147 212,370 212,674c0,220 -31,406 -92,557c-61,148 -150,273 -267,370c-117,95 -262,159 -438,184c-175,28 -320,20 -437,-30c-114,-51 -209,-143 -278,-276c-73,-134 -109,-312 -109,-532zm0,0l0,0zm482,-75c0,189 28,323 86,395c61,73 139,103 243,86c103,-16 186,-69 242,-161c58,-89 86,-240 86,-451c0,-179 -30,-301 -89,-374c-61,-72 -142,-100 -245,-83c-98,14 -176,70 -234,161c-61,92 -89,234 -89,427zm0,0l0,0zm1415,-1151l484,-33l0,1420l761,-53l0,463l-1245,83l0,-1880zm0,0l0,0zm1487,-64l488,14l0,1883l-488,-14l0,-1883zm0,0l0,0zm237,-487l376,8l-348,373l-209,-5l181,-376zm0,0l0,0zm1643,1727l424,209c-28,139 -73,253 -137,339c-61,89 -136,151 -226,187c-91,36 -208,47 -348,28c-170,-22 -309,-70 -417,-145c-109,-72 -201,-189 -279,-348c-78,-159 -117,-357 -117,-593c0,-310 67,-541 206,-688c137,-148 332,-207 585,-173c198,25 354,92 465,203c114,112 198,268 251,474l-426,58c-14,-58 -31,-103 -48,-131c-25,-47 -58,-86 -97,-114c-39,-31 -84,-47 -134,-53c-108,-17 -192,25 -250,126c-45,72 -67,192 -67,359c0,212 25,356 78,440c53,83 128,134 222,145c92,14 165,-9 212,-64c48,-59 81,-142 103,-259zm0,0l0,0zm666,-1000l482,97l0,1883l-482,-97l0,-1883zm0,0l0,0zm1771,2039l-534,-168l-76,285l-481,-151l573,-1702l516,162l571,2061l-493,-156l-76,-331zm0,0l0,0zm-100,-441l-167,-729l-167,626l334,103z" fill="rgb(7,11,4)"/>
+         </g>
+        </g>
+        <g id="svg_79" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id23">
+          <rect id="svg_80" height="814" width="1387" y="15203.862259" x="2764.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_81" d="m2815.921379,15343.862259l1239,-89l45,711c-530,-193 -886,-385 -1284,-622z" stroke-linejoin="round" stroke-width="101" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_82" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id24">
+          <rect id="svg_83" height="712" width="1286" y="15254.862259" x="2814.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_84" d="m2815.921379,15343.862259l1239,-89l45,711c-530,-193 -886,-385 -1284,-622z" fill="rgb(179,145,14)"/>
+         </g>
+        </g>
+        <g id="svg_85" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id25">
+          <rect id="svg_86" height="2104" width="2444" y="5518.862259" x="4133.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_87" d="m6435.921379,5542.862259c-855,270 -1609,783 -2278,1498l702,-69l-117,626c563,-434 1142,-843 1810,-1097l-117,-958z" stroke-linejoin="round" stroke-width="47" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_88" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id26">
+          <rect id="svg_89" height="2058" width="2397" y="5541.862259" x="4157.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_90" d="m6435.921379,5542.862259c-855,270 -1609,783 -2278,1498l702,-69l-117,626c563,-434 1142,-843 1810,-1097l-117,-958z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_91" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id27">
+          <rect id="svg_92" height="1423" width="1363" y="5537.862259" x="5512.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_93" d="m6427.921379,5561.862259l423,1209l-506,165l-808,-332l891,-1042z" stroke-linejoin="round" stroke-width="47" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_94" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id28">
+          <rect id="svg_95" height="1375" width="1317" y="5561.862259" x="5535.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_96" d="m6427.921379,5561.862259l423,1209l-506,165l-808,-332l891,-1042z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_97" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id29">
+          <rect id="svg_98" height="2105" width="2444" y="5504.862259" x="10910.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_99" d="m11051.921379,5528.862259c852,270 1607,780 2278,1498l-705,-69l120,627c-562,-438 -1145,-844 -1810,-1098l117,-958z" stroke-linejoin="round" stroke-width="47" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_100" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id30">
+          <rect id="svg_101" height="2058" width="2398" y="5527.862259" x="10933.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_102" d="m11048.921379,5528.862259c855,270 1610,780 2281,1498l-705,-69l120,627c-562,-438 -1145,-844 -1810,-1098l114,-958z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_103" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id31">
+          <rect id="svg_104" height="1422" width="1363" y="5526.862259" x="10615.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_105" d="m11059.921379,5550.862259l-420,1209l506,164l808,-331l-894,-1042z" stroke-linejoin="round" stroke-width="47" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_106" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id32">
+          <rect id="svg_107" height="1375" width="1317" y="5550.862259" x="10638.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_108" d="m11059.921379,5550.862259l-420,1209l506,164l808,-331l-894,-1042z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_109" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id33">
+          <rect id="svg_110" height="1723" width="6547" y="5640.862259" x="5467.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_111" d="m5491.921379,6482.862259c2100,-1055 4306,-1130 6498,17c-103,326 -261,616 -523,833c-1903,-1086 -3707,-1047 -5429,6c-289,-212 -479,-535 -546,-856z" stroke-linejoin="round" stroke-width="47" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_112" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id34">
+          <rect id="svg_113" height="1675" width="6500" y="5664.862259" x="5491.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_114" d="m5491.921379,6482.862259c2100,-1055 4306,-1130 6498,17c-103,326 -261,616 -523,833c-1903,-1086 -3707,-1047 -5429,6c-289,-212 -479,-535 -546,-856z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_115" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id35">
+          <rect id="svg_116" height="1018" width="5813" y="5929.862259" x="5858.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_117" d="m5984.921379,6932.862259l-125,-301l95,-39c39,-20 61,-28 75,-28c19,-3 36,0 56,11c16,9 33,28 41,50c9,20 11,37 11,53c-2,14 -5,28 -13,39c-6,11 -17,20 -26,28c-13,9 -33,20 -61,31l-39,17l48,114l-62,25zm0,0l0,0zm-44,-276l0,0l36,86l33,-14c23,-11 39,-19 48,-25c5,-8 8,-14 11,-22c0,-11 0,-19 -3,-28c-6,-11 -14,-19 -19,-25c-12,-3 -23,-3 -34,0c-5,0 -19,6 -44,17l-28,11zm0,0l0,0zm259,11l0,0c-11,-30 -17,-58 -14,-83c0,-20 5,-37 14,-53c5,-17 16,-31 28,-42c19,-17 39,-28 61,-36c47,-20 89,-20 125,2c39,17 67,53 84,101c19,50 19,94 3,133c-17,37 -48,65 -95,81c-45,17 -86,17 -123,-3c-36,-16 -67,-50 -83,-100zm0,0l0,0zm64,-25l0,0c14,36 30,59 53,70c22,14 44,14 69,5c25,-8 45,-25 53,-50c9,-22 6,-50 -5,-89c-14,-33 -31,-56 -53,-70c-23,-11 -45,-11 -70,-2c-25,8 -44,25 -53,47c-11,25 -5,53 6,89zm0,0l0,0zm340,50l0,0l217,-72l-17,-53l-156,53l-83,-262l-62,22l101,312zm0,0l0,0zm261,-86l0,0l-89,-318l64,-16l87,317l-62,17zm0,0l0,0zm-103,-332l0,0l39,-11l42,-83l-69,22l-12,72zm0,0l0,0zm399,123l0,0c0,25 -6,47 -11,61c-12,14 -23,25 -42,28c-23,6 -45,3 -62,-8c-19,-17 -33,-45 -44,-84c-11,-39 -11,-69 0,-89c8,-19 25,-33 50,-39c17,-5 31,-5 47,3c14,5 25,17 31,33l61,-33c-14,-25 -30,-39 -47,-50c-31,-17 -67,-20 -103,-11c-45,14 -78,39 -98,75c-19,36 -22,81 -8,133c14,51 39,90 72,109c37,22 76,28 115,17c36,-11 61,-25 78,-50c19,-23 28,-50 28,-92l-67,-3zm0,0l0,0zm142,86l0,0l-73,-320l64,-14l76,320l-67,14zm0,0l0,0zm418,-89l0,0l-70,14l-45,-64l-125,25l-11,84l-70,14l59,-351l67,-14l195,292zm0,0l0,0zm-145,-103l0,0l-70,-108l-17,130l87,-22zm0,0l0,0zm376,-262l0,0l64,-8l30,206c6,25 6,47 3,61c-5,23 -14,37 -28,53c-16,11 -39,23 -64,25c-33,6 -58,0 -78,-16c-19,-14 -30,-39 -36,-76l59,-13c5,16 8,27 13,36c9,11 20,16 37,14c14,-3 22,-9 28,-20c5,-5 5,-25 2,-53l-30,-209zm0,0l0,0zm153,-19l0,0l70,-3l11,176c2,27 5,47 5,52c6,17 14,26 25,31c11,11 25,11 42,11c20,0 33,-8 42,-16c11,-6 17,-17 17,-26l0,-58l-14,-181l64,-3l14,170c2,39 2,67 0,84c-3,16 -9,30 -17,41c-11,14 -22,23 -36,31c-17,6 -37,11 -64,14c-31,3 -56,0 -73,-6c-16,-8 -28,-14 -39,-25c-8,-11 -16,-22 -19,-36c-6,-17 -11,-44 -14,-81l-14,-175zm0,0l0,0zm356,-31l0,0l120,0c25,0 48,3 64,9c20,5 36,13 48,27c14,17 25,34 30,53c9,23 11,48 11,78c0,28 -2,50 -11,70c-5,25 -16,45 -33,58c-11,12 -25,20 -45,26c-16,5 -36,5 -61,5l-123,0l0,-326zm0,0l0,0zm64,56l0,0l0,217l51,0c19,0 30,0 41,-3c9,-2 20,-5 28,-14c6,-5 11,-16 14,-30c6,-17 9,-36 9,-61c0,-26 -3,-45 -9,-59c-3,-14 -11,-25 -19,-31c-6,-8 -17,-14 -28,-16c-9,-3 -28,-3 -56,-3l-31,0zm0,0l0,0zm268,-59l0,0l64,0l0,326l-64,0l0,-326zm0,0l0,0zm340,215l0,0l64,22c-11,36 -28,61 -50,78c-25,17 -53,25 -90,22c-44,0 -78,-16 -105,-47c-28,-31 -39,-72 -37,-125c3,-50 17,-95 45,-126c31,-27 70,-39 114,-39c39,3 73,14 98,39c11,14 22,34 30,62l-67,14c-2,-20 -11,-31 -22,-42c-11,-11 -28,-17 -44,-17c-25,0 -45,8 -59,25c-17,17 -25,45 -28,84c0,39 6,69 20,89c14,17 33,28 58,28c17,3 31,-6 45,-14c14,-11 25,-31 28,-53zm0,0l0,0zm117,128l0,0l22,-326l64,3l-20,329l-66,-6zm0,0l0,0zm423,33l0,0l-72,-5l-23,-75l-128,-11l-36,72l-70,-8l156,-315l70,5l103,337zm0,0l0,0zm-111,-139l0,0l-37,-122l-50,117l87,5zm0,0l0,0zm-64,-220l0,0l36,-64l69,6l-64,61l-41,-3zm0,0l0,0zm208,371l0,0l53,-324l137,20c36,6 58,14 75,22c14,9 25,20 31,36c8,17 11,34 5,53c-3,25 -14,45 -30,59c-17,14 -39,19 -67,17c14,14 22,22 30,33c9,11 17,33 28,59l31,69l-78,-11l-36,-78c-14,-28 -23,-47 -28,-53c-6,-8 -9,-14 -17,-17c-5,-5 -17,-5 -33,-8l-11,-3l-23,134l-67,-8zm0,0l0,0zm95,-179l0,0l50,9c31,5 50,8 59,5c8,0 16,-5 22,-11c3,-5 8,-14 8,-22c3,-11 0,-22 -2,-28c-6,-8 -14,-14 -23,-17c-5,-3 -22,-5 -47,-8l-53,-8l-14,80zm0,0l0,0zm231,231l0,0l62,-317l64,11l-62,320l-64,-14zm0,0l0,0zm410,95l0,0l-53,-351l-70,-16l-198,289l70,22l42,-72l128,31l11,83l70,14zm0,0l0,0zm-89,-156l0,0l-90,-19l73,-109l17,128zm0,0l0,0zm479,142l0,0l55,39c-19,31 -41,53 -69,62c-25,11 -56,11 -89,2c-42,-14 -73,-36 -92,-72c-17,-36 -20,-78 -6,-131c14,-53 39,-92 75,-111c34,-23 76,-25 120,-14c39,14 64,30 84,64c8,16 14,39 14,64l-67,-3c3,-17 0,-31 -11,-45c-9,-11 -20,-19 -39,-27c-23,-6 -45,-3 -64,11c-20,11 -34,36 -45,75c-11,42 -14,72 -3,95c9,19 25,33 48,39c16,8 33,5 50,-3c14,-9 25,-22 39,-45zm0,0l0,0zm78,156l0,0l64,20l100,-315l-61,-19l-103,314zm0,0l0,0zm197,73l0,0l3,-351l70,25l-6,259l159,-201l64,23l-223,267l-67,-22zm0,0l0,0zm209,78l0,0l62,25l117,-304l-62,-25l-117,304zm0,0l0,0zm120,50l0,0l125,-298l65,25l-106,248l150,64l-22,53l-212,-92z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_118" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id36">
+          <rect id="svg_119" height="176" width="645" y="8406.862259" x="9773.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_120" d="m10407.921379,8553.862259c0,0 -214,92 -624,-137" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_121" class="com.sun.star.drawing.PolyLineShape">
+         <g id="id37">
+          <rect id="svg_122" height="333" width="2229" y="8401.862259" x="7565.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_123" d="m9783.921379,8414.862259l-128,261l-217,-264l-198,206l-175,-120l-106,120l-159,-120l-50,120l-125,-134l-112,134l-106,-137l-183,215l-151,-212l-203,240l-295,-176" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_124" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id38">
+          <rect id="svg_125" height="50" width="391" y="8537.862259" x="7197.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_126" d="m7577.921379,8547.862259c-114,64 -370,3 -370,3" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_127" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id39">
+          <rect id="svg_128" height="2043" width="8952" y="6695.862259" x="4336.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_129" d="m12266.921379,8149.862259l585,162c105,31 -98,128 -290,95c-137,178 -357,66 -462,108c-154,62 -351,28 -471,28c-248,117 -421,-19 -468,0c-125,39 -262,3 -312,17c-373,67 -418,-36 -465,-17c-262,89 -549,-92 -588,-120l-125,262l-231,-262l-218,201l-150,-114l-123,122l-144,-133l-42,153l-137,-145l-117,125l-92,-133l-183,203l-159,-203l-217,228l-279,-167l-315,3c-178,19 -303,14 -487,-20c-231,-44 -176,73 -312,-19c-198,75 -435,75 -493,19c-84,-25 -287,84 -451,-44c-159,16 -362,44 -463,-84c-170,-11 -209,-11 -312,-103c229,11 429,-50 610,-148c-537,323 -1117,31 -991,31c128,0 994,-304 1223,-365c228,-64 1270,-418 1270,-418c0,0 404,-248 624,-156c222,89 -20,-94 434,265c451,356 524,-84 524,-86c11,-104 14,-106 -95,-209c-120,-126 -231,-126 -343,-84c-75,-323 577,-251 530,-320c-48,-70 25,-120 367,-114c340,5 265,384 265,384l89,-78l-81,423c3,0 75,440 527,84c454,-359 211,-176 434,-265c220,-92 624,156 624,156c0,0 1042,354 1270,418c229,61 1095,365 1223,365c128,0 -228,167 -549,86c-320,-83 -409,-122 -434,-131z" fill="rgb(227,0,22)"/>
+          <path id="svg_130" d="m12266.921379,8149.862259l585,162c105,31 -98,128 -290,95c-137,178 -357,66 -462,108c-154,62 -351,28 -471,28c-248,117 -421,-19 -468,0c-125,39 -262,3 -312,17c-373,67 -418,-36 -465,-17c-262,89 -549,-92 -588,-120l-125,262l-231,-262l-218,201l-150,-114l-123,122l-144,-133l-42,153l-137,-145l-117,125l-92,-133l-183,203l-159,-203l-217,228l-279,-167l-315,3c-178,19 -303,14 -487,-20c-231,-44 -176,73 -312,-19c-198,75 -435,75 -493,19c-84,-25 -287,84 -451,-44c-159,16 -362,44 -463,-84c-170,-11 -209,-11 -312,-103c229,11 429,-50 610,-148c-537,323 -1117,31 -991,31c128,0 994,-304 1223,-365c228,-64 1270,-418 1270,-418c0,0 404,-248 624,-156c222,89 -20,-94 434,265c451,356 524,-84 524,-86c11,-104 14,-106 -95,-209c-120,-126 -231,-126 -343,-84c-75,-323 577,-251 530,-320c-48,-70 25,-120 367,-114c340,5 265,384 265,384l89,-78l-81,423c3,0 75,440 527,84c454,-359 211,-176 434,-265c220,-92 624,156 624,156c0,0 1042,354 1270,418c229,61 1095,365 1223,365c128,0 -228,167 -549,86c-320,-83 -409,-122 -434,-131z" stroke-linejoin="round" stroke-width="21" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_131" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id40">
+          <rect id="svg_132" height="204" width="508" y="8270.862259" x="9832.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_133" d="m10329.921379,8347.862259c0,0 -33,301 -487,-67" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_134" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id41">
+          <rect id="svg_135" height="294" width="578" y="8150.862259" x="10083.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_136" d="m10650.921379,8316.862259c0,0 8,348 -557,-156" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_137" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id42">
+          <rect id="svg_138" height="300" width="648" y="8106.862259" x="10375.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_139" d="m11012.921379,8291.862259c0,0 -48,326 -627,-175" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_140" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id43">
+          <rect id="svg_141" height="281" width="750" y="8072.862259" x="10704.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_142" d="m11443.921379,8258.862259c0,0 -231,278 -729,-176" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_143" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id44">
+          <rect id="svg_144" height="232" width="801" y="8067.862259" x="11057.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_145" d="m11847.921379,8213.862259c0,0 -156,240 -780,-136" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_146" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id45">
+          <rect id="svg_147" height="226" width="770" y="8008.862259" x="11350.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_148" d="m12109.921379,8146.862259c0,0 -125,240 -749,-128" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_149" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id46">
+          <rect id="svg_150" height="270" width="973" y="7899.862259" x="11484.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_151" d="m12446.921379,7960.862259c0,0 -5,479 -952,-51" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_152" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id47">
+          <rect id="svg_153" height="132" width="681" y="8456.862259" x="10163.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_154" d="m10833.921379,8539.862259c0,0 -353,122 -660,-73" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_155" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id48">
+          <rect id="svg_156" height="153" width="695" y="8417.862259" x="10470.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_157" d="m11154.921379,8528.862259c0,0 -151,117 -674,-101" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_158" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id49">
+          <rect id="svg_159" height="218" width="750" y="8378.862259" x="10899.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_160" d="m11638.921379,8525.862259c0,0 -197,203 -729,-137" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_161" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id50">
+          <rect id="svg_162" height="251" width="867" y="8323.862259" x="11236.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_163" d="m12092.921379,8489.862259c0,0 -242,245 -846,-156" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_164" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id51">
+          <rect id="svg_165" height="253" width="1021" y="8270.862259" x="11559.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_166" d="m12569.921379,8408.862259c0,0 -181,304 -1000,-128" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_167" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id52">
+          <rect id="svg_168" height="201" width="918" y="8211.862259" x="11957.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_169" d="m12864.921379,8305.862259c0,0 -100,265 -897,-84" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_170" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id53">
+          <rect id="svg_171" height="204" width="508" y="8270.862259" x="7275.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_172" d="m7285.921379,8347.862259c0,0 33,301 487,-67" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_173" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id54">
+          <rect id="svg_174" height="294" width="579" y="8150.862259" x="6957.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_175" d="m6967.921379,8316.862259c0,0 -5,348 558,-156" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_176" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id55">
+          <rect id="svg_177" height="300" width="647" y="8106.862259" x="6593.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_178" d="m6603.921379,8291.862259c0,0 47,326 626,-175" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_179" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id56">
+          <rect id="svg_180" height="281" width="751" y="8072.862259" x="6161.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_181" d="m6171.921379,8258.862259c0,0 228,278 730,-176" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_182" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id57">
+          <rect id="svg_183" height="232" width="801" y="8067.862259" x="5757.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_184" d="m5767.921379,8213.862259c0,0 153,240 780,-136" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_185" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id58">
+          <rect id="svg_186" height="226" width="770" y="8008.862259" x="5495.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_187" d="m5505.921379,8146.862259c0,0 126,240 749,-128" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_188" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id59">
+          <rect id="svg_189" height="270" width="974" y="7899.862259" x="5158.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_190" d="m5168.921379,7960.862259c0,0 3,479 953,-51" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_191" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id60">
+          <rect id="svg_192" height="132" width="681" y="8456.862259" x="6771.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_193" d="m6781.921379,8539.862259c0,0 354,122 660,-73" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_194" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id61">
+          <rect id="svg_195" height="153" width="695" y="8417.862259" x="6451.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_196" d="m6461.921379,8528.862259c0,0 147,117 674,-101" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_197" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id62">
+          <rect id="svg_198" height="218" width="750" y="8378.862259" x="5969.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_199" d="m5979.921379,8525.862259c0,0 195,203 729,-137" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_200" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id63">
+          <rect id="svg_201" height="251" width="867" y="8323.862259" x="5515.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_202" d="m5525.921379,8489.862259c0,0 239,245 846,-156" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_203" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id64">
+          <rect id="svg_204" height="253" width="1021" y="8270.862259" x="5036.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_205" d="m5046.921379,8408.862259c0,0 178,304 1000,-128" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_206" class="com.sun.star.drawing.OpenBezierShape">
+         <g id="id65">
+          <rect id="svg_207" height="201" width="918" y="8211.862259" x="4743.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_208" d="m4753.921379,8305.862259c0,0 100,265 897,-84" stroke-linecap="round" stroke-linejoin="round" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_209" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id66">
+          <rect id="svg_210" height="137" width="287" y="6756.862259" x="8537.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_211" d="m8591.921379,6854.862259c48,-45 131,-81 215,-87l-50,95c-39,-44 -103,-39 -165,-8z" fill="rgb(27,25,24)"/>
+          <path id="svg_212" d="m8591.921379,6854.862259c48,-45 131,-81 215,-87l-50,95c-39,-44 -103,-39 -165,-8z" stroke-width="19" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_213" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id67">
+          <rect id="svg_214" height="82" width="192" y="7051.862259" x="8000.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_215" d="m8001.921379,7132.862259c36,-70 103,-100 189,-67c-64,14 -131,39 -189,67z" fill="rgb(27,25,24)"/>
+         </g>
+        </g>
+        <g id="svg_216" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id68">
+          <rect id="svg_217" height="134" width="283" y="7288.862259" x="7137.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_218" d="m7419.921379,7416.862259c-101,12 -192,-2 -282,-50c76,-64 167,-78 265,-78c-89,14 -159,39 -203,73c67,41 139,55 220,55z" fill="rgb(27,25,24)"/>
+         </g>
+        </g>
+        <g id="svg_219" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id69">
+          <rect id="svg_220" height="134" width="284" y="7288.862259" x="10178.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_221" d="m10179.921379,7416.862259c97,12 192,-2 281,-50c-75,-64 -170,-78 -264,-78c86,14 158,39 200,73c-64,41 -139,55 -217,55z" fill="rgb(27,25,24)"/>
+         </g>
+        </g>
+        <g id="svg_222" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id70">
+          <rect id="svg_223" height="1048" width="2727" y="8256.862259" x="7398.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_224" d="m7681.921379,9285.862259l2219,-87l0,-195c3,-55 -30,-108 62,-125c122,0 -37,-125 55,-117c109,8 115,-8 34,-97c-6,-12 5,-98 -9,-154c-5,-41 -30,-61 -58,-33l-61,53c-28,25 -56,25 -81,-6c-22,-55 -53,-86 -78,-139c-36,-56 -75,-72 -111,-3l-39,62c-34,47 -73,55 -117,11c-48,-48 -207,-276 -226,-117c-8,72 -36,100 -84,97l-167,-134c-67,-50 -103,-27 -92,51c3,69 0,222 -94,92c-34,-56 -67,-109 -103,-162c-42,56 -62,117 -98,164c-47,67 -86,62 -97,-8l0,-98c5,-69 -31,-78 -106,-30l-101,69c-94,65 -114,76 -128,-13c-8,-112 -50,-120 -122,-31l-89,103c-106,109 -131,8 -190,-70c-41,-61 -75,-30 -100,23l-47,100c-31,64 -62,111 -115,39c-64,-84 -119,-98 -111,-6l8,131c-5,28 -14,48 -19,78c0,25 58,17 81,22c30,-2 -64,101 -9,109c31,3 56,-28 84,6l109,415z" stroke-linejoin="round" stroke-width="35" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_225" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id71">
+          <rect id="svg_226" height="1012" width="2692" y="8274.862259" x="7415.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_227" d="m7681.921379,9285.862259l2219,-87l0,-195c3,-55 -30,-108 62,-125c122,0 -37,-125 55,-117c109,8 115,-8 34,-97c-6,-12 5,-98 -9,-154c-5,-41 -30,-61 -58,-33l-61,53c-28,25 -56,25 -81,-6c-22,-55 -53,-86 -78,-139c-36,-56 -75,-72 -111,-3l-39,62c-34,47 -73,55 -117,11c-48,-48 -207,-276 -226,-117c-8,72 -36,100 -84,97l-167,-134c-67,-50 -103,-27 -92,51c3,69 0,222 -94,92c-34,-56 -67,-109 -103,-162c-42,56 -62,117 -98,164c-47,67 -86,62 -97,-8l0,-98c5,-69 -31,-78 -106,-30l-101,67c-94,67 -114,78 -128,-11c-8,-112 -50,-120 -122,-31l-89,103c-106,109 -131,8 -190,-70c-41,-61 -75,-30 -100,23l-47,100c-31,64 -62,111 -115,39c-64,-84 -119,-98 -111,-6l8,131c-5,28 -14,48 -19,78c0,25 58,17 81,22c30,-2 -64,101 -9,109c31,3 56,-28 84,6l109,415z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_228" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id72">
+          <rect id="svg_229" height="717" width="1095" y="8532.862259" x="8203.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_230" d="m8243.921379,9224.862259l45,-92l-67,-150l50,-148l0,-175l248,-28l120,-75l80,22l120,-28l75,72l232,26l61,186l72,98l-58,172l8,126l-986,-6z" stroke-linejoin="round" stroke-width="35" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_231" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id73">
+          <rect id="svg_232" height="681" width="1061" y="8550.862259" x="8220.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_233" d="m8243.921379,9224.862259l45,-92l-67,-150l50,-148l0,-175l248,-28l120,-75l80,22l120,-28l75,72l232,26l61,186l72,98l-58,172l8,126l-986,-6z" fill="rgb(198,167,67)"/>
+         </g>
+        </g>
+        <g id="svg_234" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id74">
+          <rect id="svg_235" height="271" width="587" y="8671.862259" x="7894.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_236" d="m7923.921379,8687.862259l-14,155l512,84l42,-164l-540,-75z" stroke-width="26" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_237" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id75">
+          <rect id="svg_238" height="242" width="557" y="8686.862259" x="7908.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_239" d="m7923.921379,8687.862259l-14,155l512,84l42,-164l-540,-75z" fill="rgb(255,236,0)"/>
+         </g>
+        </g>
+        <g id="svg_240" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id76">
+          <rect id="svg_241" height="271" width="586" y="8677.862259" x="9007.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_242" d="m9566.921379,8692.862259l11,156l-515,84l-39,-165l543,-75z" stroke-width="26" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_243" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id77">
+          <rect id="svg_244" height="241" width="556" y="8692.862259" x="9023.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_245" d="m9566.921379,8692.862259l11,156l-515,84l-39,-165l543,-75z" fill="rgb(255,236,0)"/>
+         </g>
+        </g>
+        <g id="svg_246" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id78">
+          <rect id="svg_247" height="245" width="498" y="8892.862259" x="7869.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_248" d="m7898.921379,8907.862259l-14,153l457,61l11,-162l-454,-52z" stroke-width="26" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_249" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id79">
+          <rect id="svg_250" height="216" width="470" y="8909.862259" x="7883.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_251" d="m7898.921379,8909.862259l-14,154l457,61l11,-162l-454,-53z" fill="rgb(255,236,0)"/>
+         </g>
+        </g>
+        <g id="svg_252" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id80">
+          <rect id="svg_253" height="246" width="498" y="8900.862259" x="9120.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_254" d="m9588.921379,8915.862259l14,153l-456,61l-12,-161l454,-53z" stroke-width="26" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_255" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id81">
+          <rect id="svg_256" height="217" width="470" y="8914.862259" x="9134.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_257" d="m9588.921379,8915.862259l14,153l-456,61l-12,-161l454,-53z" fill="rgb(255,236,0)"/>
+         </g>
+        </g>
+        <g id="svg_258" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id82">
+          <rect id="svg_259" height="2011" width="1471" y="10482.862259" x="10782.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_260" d="m10806.921379,12469.862259c284,-579 462,-1256 596,-1964l376,555l451,-254c-56,540 -156,1045 -435,1432l-988,231z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_261" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id83">
+          <rect id="svg_262" height="1965" width="1426" y="10508.862259" x="10802.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_263" d="m10803.921379,12472.862259c284,-580 462,-1256 596,-1964l376,554l451,-253c-56,540 -156,1044 -434,1432l-989,231z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_264" class="com.sun.star.drawing.PolyLineShape">
+         <g id="id84">
+          <rect id="svg_265" height="1030" width="437" y="13482.862259" x="9954.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_266" d="m10379.921379,14502.862259l-409,-498l253,-516" stroke-width="26" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_267" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id85">
+          <rect id="svg_268" height="881" width="817" y="11855.862259" x="10788.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_269" d="m10811.921379,12469.862259l240,242c195,-267 370,-546 529,-833c0,0 -785,571 -769,591z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_270" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id86">
+          <rect id="svg_271" height="835" width="771" y="11878.862259" x="10811.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_272" d="m10811.921379,12469.862259l240,242c195,-267 370,-546 529,-833c0,0 -785,571 -769,591z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_273" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id87">
+          <rect id="svg_274" height="2011" width="1471" y="10482.862259" x="5206.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_275" d="m6653.921379,12469.862259c-290,-579 -465,-1256 -599,-1964l-379,555l-446,-254c53,540 156,1045 429,1432l995,231z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_276" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id88">
+          <rect id="svg_277" height="1965" width="1425" y="10508.862259" x="5229.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_278" d="m6653.921379,12472.862259c-290,-580 -465,-1256 -599,-1964l-379,554l-446,-253c53,540 156,1044 429,1432l995,231z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_279" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id89">
+          <rect id="svg_280" height="881" width="818" y="11855.862259" x="5874.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_281" d="m6667.921379,12469.862259l-240,242c-198,-267 -370,-546 -529,-833c0,0 788,571 769,591z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_282" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id90">
+          <rect id="svg_283" height="835" width="772" y="11878.862259" x="5897.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_284" d="m6667.921379,12469.862259l-240,242c-198,-267 -370,-546 -529,-833c0,0 788,571 769,591z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_285" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id91">
+          <rect id="svg_286" height="2664" width="2510" y="11863.862259" x="5025.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_287" d="m7257.921379,13488.862259c-668,-459 -1047,-1016 -1342,-1601l-867,317c376,958 1020,1752 2053,2298l410,-498l-254,-516z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_288" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id92">
+          <rect id="svg_289" height="2618" width="2464" y="11886.862259" x="5048.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_290" d="m7257.921379,13488.862259c-668,-459 -1047,-1016 -1342,-1601l-867,317c376,958 1020,1752 2053,2298l410,-498l-254,-516z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_291" class="com.sun.star.drawing.PolyLineShape">
+         <g id="id93">
+          <rect id="svg_292" height="1030" width="440" y="13482.862259" x="7088.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_293" d="m7098.921379,14502.862259l413,-498l-257,-516" stroke-width="26" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_294" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id94">
+          <rect id="svg_295" height="730" width="816" y="13838.862259" x="6652.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_296" d="m7444.921379,14215.862259l-321,329l-448,-682l769,353z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_297" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id95">
+          <rect id="svg_298" height="684" width="770" y="13861.862259" x="6675.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_299" d="m7444.921379,14215.862259l-321,329l-448,-682l769,353z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_300" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id96">
+          <rect id="svg_301" height="4599" width="3612" y="8826.862259" x="7007.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_302" d="m9976.921379,8854.862259l621,481l-148,329l0,2114c11,2125 -3284,2215 -3284,9l0,-2137l-136,-306l640,-496l365,295l1571,3l371,-292z" stroke-width="34" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_303" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id97">
+          <rect id="svg_304" height="4560" width="3570" y="8848.862259" x="7028.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_305" d="m9976.921379,8854.862259l621,481l-148,329l0,2114c11,2125 -3284,2215 -3284,9l0,-2137l-136,-306l640,-496l365,295l1571,3l371,-292z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_306" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id98">
+          <rect id="svg_307" height="2819" width="2962" y="9967.862259" x="7335.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_308" d="m7351.921379,10433.862259c103,14 195,14 276,0c50,19 111,25 189,0c48,17 95,28 142,33l142,0c78,-2 117,-30 123,-80l-11,-101c25,-28 47,-61 58,-106c17,-47 17,-91 -5,-130l22,-81l17,64l30,86c25,9 31,42 37,78c8,61 22,112 41,151c95,33 162,86 201,158l1409,20l273,33c-30,167 -80,282 -142,368c-22,83 -22,139 -11,178c8,59 6,103 0,137c-25,66 -3,150 36,234c-5,55 -50,142 -114,247c20,134 0,232 -72,271c-42,2 -84,69 -126,161l-94,48c-50,100 -134,200 -234,300l-6,282c-83,2 -56,-11 -53,-84c17,-81 -5,-120 -67,-125c-33,83 -106,111 -234,69c-211,109 -234,-69 -342,-69l-156,25c-98,-6 -117,161 -145,145l-170,-25c-56,-34 -97,-78 -114,-148l-92,-56c-33,-97 150,-192 -78,-189l-284,53c-28,-142 -70,-270 -145,-354c11,-58 70,-58 28,-142c-22,-31 -36,-78 -36,-148l203,-275l-14,-106c36,-42 22,-103 -36,-176c67,-172 17,-217 -100,-189c-23,-56 -87,-78 -187,-56c-50,11 -100,11 -142,-8c14,-47 17,-92 -14,-117l0,-81l3,-153c-28,-25 -28,-72 -6,-142z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_309" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id99">
+          <rect id="svg_310" height="2150" width="2109" y="14037.862259" x="4748.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_311" d="m6731.921379,16154.862259c-724,-267 -1365,-783 -1930,-1499l593,70l-98,-627c477,435 970,844 1535,1098l-100,958z" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_312" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id100">
+          <rect id="svg_313" height="2057" width="2032" y="14098.862259" x="4800.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_314" d="m6731.921379,16154.862259c-724,-267 -1365,-783 -1930,-1499l593,70l-98,-627c477,435 970,844 1535,1098l-100,958z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_315" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id101">
+          <rect id="svg_316" height="1421" width="1162" y="14738.862259" x="5941.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_317" d="m6720.921379,16134.862259l359,-1208l-429,-165l-685,334l755,1039z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_318" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id102">
+          <rect id="svg_319" height="1375" width="1116" y="14761.862259" x="5964.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_320" d="m6720.921379,16134.862259l359,-1208l-429,-165l-685,334l755,1039z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_321" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id103">
+          <rect id="svg_322" height="2151" width="2110" y="14048.862259" x="10516.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_323" d="m10641.921379,16165.862259c722,-270 1362,-783 1931,-1498l-597,69l101,-627c-477,435 -970,844 -1535,1098l100,958z" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_324" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id104">
+          <rect id="svg_325" height="2058" width="2032" y="14109.862259" x="10541.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_326" d="m10641.921379,16165.862259c722,-270 1362,-783 1931,-1498l-597,69l101,-627c-477,435 -970,844 -1535,1098l100,958z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_327" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id105">
+          <rect id="svg_328" height="1421" width="1162" y="14749.862259" x="10267.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_329" d="m10650.921379,16146.862259l-360,-1209l432,-165l682,332l-754,1042z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_330" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id106">
+          <rect id="svg_331" height="1375" width="1116" y="14772.862259" x="10290.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_332" d="m10650.921379,16146.862259l-360,-1209l429,-165l685,332l-754,1042z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_333" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id107">
+          <rect id="svg_334" height="1727" width="5558" y="14328.862259" x="5905.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_335" d="m5931.921379,15212.862259c1780,1056 3649,1131 5504,-16c-83,-326 -217,-616 -443,-833c-1610,1086 -3139,1047 -4598,-6c-245,209 -407,535 -463,855z" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_336" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id108">
+          <rect id="svg_337" height="1675" width="5506" y="14357.862259" x="5931.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_338" d="m5931.921379,15212.862259c1780,1056 3649,1131 5504,-16c-83,-326 -217,-616 -443,-833c-1610,1086 -3139,1047 -4598,-6c-245,209 -407,535 -463,855z" fill="rgb(0,106,179)"/>
+         </g>
+        </g>
+        <g id="svg_339" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id109">
+          <rect id="svg_340" height="704" width="3508" y="15087.862259" x="6970.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_341" d="m6970.921379,15427.862259c25,-59 53,-114 75,-170c28,-58 56,-114 81,-170c25,8 53,20 81,31c-8,42 -17,83 -25,125c-8,42 -17,86 -22,128c22,-39 50,-72 75,-108c22,-34 47,-70 72,-106c25,5 56,16 87,28c-23,58 -45,114 -67,172c-20,59 -42,120 -64,176c-23,-6 -42,-11 -62,-20c20,-41 39,-92 56,-136c17,-45 36,-92 53,-137c-28,42 -56,84 -83,126c-28,41 -56,86 -84,128c-22,-9 -39,-14 -59,-20c9,-55 20,-103 28,-150c11,-50 23,-98 31,-145c-20,45 -39,89 -59,134c-19,47 -39,89 -61,136c-17,-5 -36,-16 -53,-22zm0,0l0,0zm652,212l0,0c-8,-64 -11,-129 -14,-193c-5,-69 -8,-133 -8,-197c-23,-6 -45,-11 -67,-17c-36,53 -78,103 -117,156c-39,53 -84,106 -123,156c23,5 45,14 67,22c20,-22 36,-47 56,-72c42,14 86,25 125,39c0,28 3,55 6,86c25,8 50,14 75,20zm0,0l0,0zm-81,-173l0,0c-30,-8 -58,-17 -86,-22c14,-25 28,-45 42,-62c14,-22 28,-41 44,-61l0,73c0,25 0,50 0,72zm0,0l0,0zm156,192l0,0c14,-50 25,-97 39,-145c11,-50 25,-103 39,-150c-30,-8 -61,-17 -92,-22c6,-23 11,-42 17,-62c81,20 164,42 248,62c-3,19 -8,39 -11,58c-34,-5 -64,-14 -98,-22c-11,50 -22,100 -36,150c-11,48 -22,98 -36,145c-22,-3 -47,-8 -70,-14zm0,0l0,0zm234,-134l0,0c-5,31 -8,56 -5,78c2,25 11,45 22,64c25,39 64,65 117,73c53,8 97,-6 134,-31c19,-16 33,-36 44,-55c11,-20 20,-45 22,-76c3,-28 3,-55 0,-78c-2,-25 -13,-47 -25,-66c-25,-39 -64,-59 -111,-65c-28,-5 -50,-5 -72,0c-17,3 -34,12 -51,23c-16,14 -27,28 -41,44c-14,25 -25,53 -34,89zm0,0l0,0zm70,14l0,0c8,-44 25,-72 44,-89c23,-19 48,-25 73,-22c28,6 50,22 64,45c14,22 17,52 11,94c-3,22 -8,39 -14,53c-8,14 -17,28 -28,36c-22,17 -47,25 -75,23c-31,-6 -50,-20 -64,-45c-14,-25 -17,-58 -11,-95zm0,0l0,0zm621,115l0,0c0,-23 3,-42 3,-65c53,6 106,6 158,6l0,72c0,23 0,48 0,73c-16,14 -41,28 -72,36c-31,14 -64,17 -95,14c-36,0 -69,-8 -97,-25c-28,-17 -47,-42 -59,-72c-8,-17 -14,-31 -14,-48c0,-17 -2,-33 0,-50c0,-19 6,-36 9,-53c8,-17 14,-33 22,-47c17,-25 42,-48 73,-64c22,-11 50,-17 83,-14c42,0 75,11 100,33c25,17 39,42 48,75c-25,9 -48,12 -75,14c-3,-16 -12,-30 -26,-41c-13,-12 -30,-17 -50,-17c-30,0 -55,8 -75,28c-19,19 -31,50 -33,89c-3,22 -3,39 2,56c3,16 9,30 17,41c20,20 45,34 75,34c17,3 31,0 48,-6c16,-8 30,-14 42,-22c0,-14 0,-31 0,-45c-28,-2 -56,-2 -84,-2zm0,0l0,0zm228,133l0,0l0,-181c-2,-61 -2,-122 -2,-186c50,0 97,0 147,-6c36,-3 64,0 81,6c17,2 31,14 42,30c11,20 16,36 16,59c3,28 0,50 -13,69c-17,20 -39,34 -70,39c17,9 28,17 39,28c11,11 25,28 44,56c17,22 37,47 51,67c-28,3 -59,5 -90,8c-19,-25 -39,-50 -55,-75c-23,-28 -36,-45 -42,-53c-8,-6 -14,-11 -25,-11c-6,-3 -20,-3 -34,-3c-5,0 -11,0 -11,0c-5,25 -5,53 -2,75c0,25 0,50 0,78c-26,0 -48,0 -76,0zm0,0l0,0zm73,-211l0,0c16,0 33,0 53,-3c33,-3 55,-6 64,-9c8,-5 14,-8 19,-16c3,-9 6,-17 6,-28c-3,-11 -6,-22 -11,-31c-9,-5 -17,-11 -28,-11c-6,0 -22,0 -50,3c-20,0 -37,3 -56,3c0,30 3,61 3,92zm0,0l0,0zm273,11l0,0c-3,-39 -3,-73 8,-98c6,-19 14,-39 25,-55c14,-17 25,-31 42,-39c19,-12 42,-23 70,-26c50,-8 89,0 125,28c17,14 31,31 44,56c9,22 17,47 23,78c5,28 5,58 3,81c-3,25 -14,47 -26,67c-27,36 -66,64 -119,72c-53,6 -101,-6 -137,-36c-17,-14 -28,-31 -39,-53c-11,-22 -16,-47 -19,-75zm0,0l0,0zm72,-14l0,0c6,42 20,72 39,92c22,16 45,25 75,22c28,-6 50,-20 67,-42c6,-14 11,-28 14,-44c0,-17 0,-37 -3,-59c-5,-42 -19,-69 -39,-89c-19,-19 -41,-25 -72,-19c-28,2 -50,16 -64,41c-17,23 -20,56 -17,98zm0,0l0,0zm312,16l0,0c25,-8 45,-16 67,-25c8,25 22,42 33,51c17,8 34,8 53,2c25,-5 39,-14 50,-28c9,-11 12,-25 9,-36c-3,-8 -6,-14 -14,-19c-6,-9 -14,-11 -28,-11c-8,-3 -25,-3 -56,-3c-39,0 -67,-9 -83,-20c-25,-14 -39,-36 -45,-66c-3,-20 -3,-39 6,-56c5,-20 16,-36 33,-48c14,-13 34,-22 59,-27c39,-9 69,-6 97,8c22,14 39,36 50,72c-22,6 -42,12 -64,17c-5,-14 -17,-28 -28,-33c-11,-6 -25,-6 -44,-3c-17,5 -31,14 -39,25c-9,6 -9,14 -9,25c3,6 9,14 14,20c12,8 34,11 67,11c34,0 61,5 78,8c17,6 34,14 45,28c11,14 22,30 28,53c5,22 2,42 0,64c-9,19 -20,39 -39,50c-17,14 -42,25 -70,31c-47,11 -81,8 -111,-6c-25,-17 -48,-45 -59,-84zm0,0l0,0zm315,-78l0,0c14,39 36,65 64,78c28,17 64,20 106,6c28,-8 50,-22 67,-36c14,-14 25,-34 30,-53c3,-22 0,-45 -5,-64c-9,-25 -17,-42 -31,-53c-14,-14 -28,-22 -45,-28c-16,0 -44,-3 -75,0c-33,0 -55,-3 -67,-8c-5,-3 -11,-11 -14,-20c-2,-8 -2,-16 6,-25c6,-11 20,-19 36,-25c20,-5 34,-5 42,0c14,6 22,17 31,34c19,-9 41,-14 61,-23c-14,-33 -31,-55 -56,-67c-25,-14 -55,-14 -94,-2c-23,8 -42,16 -56,30c-14,11 -25,28 -28,48c-6,16 -6,36 0,53c8,30 22,50 47,64c20,8 45,16 84,16c31,-2 47,-2 56,-2c11,2 19,8 27,11c6,5 9,11 12,19c5,14 2,25 -3,39c-9,14 -22,22 -45,31c-19,5 -36,5 -53,-3c-14,-8 -25,-22 -36,-45c-19,9 -42,17 -61,25zm0,0l0,0zm276,-155l0,0c-9,-37 -17,-67 -14,-95c0,-22 2,-39 8,-56c8,-19 17,-36 28,-47c14,-14 30,-28 56,-36c39,-14 78,-12 117,11c16,11 33,25 50,44c11,17 28,42 39,70c11,25 16,50 22,75c0,22 0,47 -6,67c-14,39 -44,72 -86,89c-47,20 -89,20 -128,-3c-20,-11 -34,-28 -50,-50c-14,-19 -25,-42 -36,-69zm0,0l0,0zm61,-23l0,0c17,36 36,64 58,78c23,14 45,17 73,6c22,-9 39,-28 44,-50c6,-14 6,-31 3,-45c-3,-17 -8,-36 -17,-56c-16,-36 -33,-64 -55,-78c-23,-14 -45,-14 -67,-8c-25,11 -39,28 -48,53c-5,25 -2,58 9,100z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_342" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id110">
+          <rect id="svg_343" height="1606" width="1389" y="12201.862259" x="5404.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_344" d="m6449.921379,13566.862259l53,34c-17,28 -25,47 -25,64c0,19 8,33 22,47c17,17 34,20 50,17c17,0 31,-8 39,-20c9,-11 11,-19 14,-27c0,-9 0,-17 -5,-28c-6,-11 -14,-25 -28,-50c-20,-31 -28,-59 -28,-81c3,-34 14,-61 36,-87c14,-16 31,-30 50,-41c20,-9 39,-11 62,-9c19,3 39,14 55,31c34,25 48,53 48,86c0,34 -12,64 -39,98l-53,-42c14,-19 19,-33 19,-47c0,-17 -8,-28 -22,-39c-14,-11 -28,-20 -45,-17c-8,3 -16,6 -25,14c-5,8 -8,19 -8,28c0,14 5,33 25,61c17,28 28,50 33,70c6,16 3,36 -2,58c-6,22 -17,42 -37,64c-16,17 -36,31 -58,42c-22,11 -45,17 -64,11c-20,-3 -45,-14 -64,-33c-36,-28 -50,-59 -50,-89c0,-37 14,-73 47,-115zm0,0l0,0zm-290,-78l321,-312l44,48l-323,312l-42,-48zm0,0l0,0zm-300,-328l331,-298l42,47l-134,298l220,-198l42,45l-334,298l-42,-50l131,-290l-217,192l-39,-44zm0,0l0,0zm-293,-393l362,-265l59,78l-209,226l276,-131l58,78l-365,267l-33,-52l287,-209l-324,158l-39,-53l251,-259l-290,209l-33,-47zm0,0l0,0zm-39,-513c39,-22 72,-39 103,-47c22,-5 45,-5 67,-5c22,0 36,5 56,13c19,9 36,26 50,45c25,42 28,81 8,128c-17,42 -56,84 -117,120c-58,39 -114,56 -161,53c-48,0 -84,-22 -109,-61c-22,-39 -25,-81 -8,-126c19,-42 55,-83 111,-120zm0,0l0,0zm39,56l0,0c-42,25 -70,50 -81,78c-11,28 -11,53 0,73c14,19 37,33 67,33c28,0 67,-17 106,-42c45,-25 70,-53 84,-78c13,-25 13,-50 -3,-72c-17,-22 -36,-34 -64,-34c-31,0 -67,14 -109,42z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_345" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id111">
+          <rect id="svg_346" height="114" width="617" y="12131.862259" x="8513.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_347" d="m9126.921379,12132.862259c0,28 -136,61 -304,61c-172,0 -309,-33 -309,-61l0,47c0,34 137,64 309,64c168,0 307,-30 307,-64l-3,-47z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_348" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id112">
+          <rect id="svg_349" height="54" width="288" y="12187.862259" x="8686.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_350" d="m8686.921379,12188.862259l0,44c56,11 242,9 287,0l0,-44c-50,8 -187,16 -287,0z" fill="rgb(166,168,170)"/>
+         </g>
+        </g>
+        <g id="svg_351" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id113">
+          <rect id="svg_352" height="51" width="247" y="12187.862259" x="8705.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_353" d="m8706.921379,12188.862259l0,44c52,6 200,6 245,0l0,-44c-51,8 -162,11 -245,0z" fill="rgb(177,179,180)"/>
+         </g>
+        </g>
+        <g id="svg_354" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id114">
+          <rect id="svg_355" height="50" width="210" y="12193.862259" x="8725.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_356" d="m8725.921379,12193.862259l0,48c45,2 159,0 209,-3l0,-45c-53,3 -142,6 -209,0z" fill="rgb(189,191,192)"/>
+         </g>
+        </g>
+        <g id="svg_357" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id115">
+          <rect id="svg_358" height="50" width="183" y="12193.862259" x="8738.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_359" d="m8739.921379,12193.862259l0,48c39,2 139,0 181,-3l0,-45c-47,6 -120,6 -181,0z" fill="rgb(199,201,202)"/>
+         </g>
+        </g>
+        <g id="svg_360" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id116">
+          <rect id="svg_361" height="45" width="155" y="12195.862259" x="8750.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_362" d="m8750.921379,12196.862259l0,42c33,3 120,0 153,-3l0,-39c-42,3 -100,3 -153,0z" fill="rgb(207,208,210)"/>
+         </g>
+        </g>
+        <g id="svg_363" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id117">
+          <rect id="svg_364" height="48" width="130" y="12195.862259" x="8761.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_365" d="m8761.921379,12196.862259l0,45c28,2 98,0 128,-3l0,-42c-36,0 -83,3 -128,0z" fill="rgb(217,218,219)"/>
+         </g>
+        </g>
+        <g id="svg_366" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id118">
+          <rect id="svg_367" height="48" width="113" y="12195.862259" x="8772.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_368" d="m8772.921379,12196.862259l0,45c23,2 87,0 112,-3l0,-42c-34,0 -73,3 -112,0z" fill="rgb(226,227,228)"/>
+         </g>
+        </g>
+        <g id="svg_369" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id119">
+          <rect id="svg_370" height="48" width="97" y="12195.862259" x="8780.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_371" d="m8781.921379,12196.862259l0,45c19,2 72,0 94,-3l0,-42c-27,0 -61,3 -94,0z" fill="rgb(238,238,239)"/>
+         </g>
+        </g>
+        <g id="svg_372" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id120">
+          <rect id="svg_373" height="110" width="617" y="12087.862259" x="8513.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_374" d="m8822.921379,12196.862259c170,0 307,-31 307,-64c0,-28 -137,-45 -307,-45c-172,0 -309,17 -309,45c0,33 137,64 309,64z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_375" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id121">
+          <rect id="svg_376" height="77" width="540" y="12095.862259" x="8557.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_377" d="m9095.921379,12096.862259c0,25 -117,47 -267,47c-150,0 -270,-22 -270,-44l0,25c0,22 122,47 270,47c153,0 267,-22 267,-45l0,-30z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_378" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id122">
+          <rect id="svg_379" height="39" width="289" y="12134.862259" x="8677.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_380" d="m8678.921379,12135.862259l0,30c55,11 239,6 287,0l0,-30c-51,5 -187,14 -287,0z" fill="rgb(166,168,170)"/>
+         </g>
+        </g>
+        <g id="svg_381" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id123">
+          <rect id="svg_382" height="37" width="247" y="12134.862259" x="8697.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_383" d="m8697.921379,12135.862259l0,30c53,6 201,6 245,0l0,-30c-53,5 -161,11 -245,0z" fill="rgb(177,179,180)"/>
+         </g>
+        </g>
+        <g id="svg_384" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id124">
+          <rect id="svg_385" height="32" width="211" y="12137.862259" x="8716.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_386" d="m8717.921379,12137.862259l0,26c47,5 156,5 209,2l0,-28c-53,3 -140,6 -209,0z" fill="rgb(189,191,192)"/>
+         </g>
+        </g>
+        <g id="svg_387" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id125">
+          <rect id="svg_388" height="29" width="180" y="12140.862259" x="8733.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_389" d="m8733.921379,12140.862259l0,25c37,3 137,3 179,0l0,-25c-48,0 -120,3 -179,0z" fill="rgb(199,201,202)"/>
+         </g>
+        </g>
+        <g id="svg_390" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id126">
+          <rect id="svg_391" height="30" width="152" y="12140.862259" x="8744.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_392" d="m8745.921379,12140.862259l0,28c33,0 116,0 150,-3l0,-25c-39,3 -100,3 -150,0z" fill="rgb(207,208,210)"/>
+         </g>
+        </g>
+        <g id="svg_393" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id127">
+          <rect id="svg_394" height="28" width="133" y="12140.862259" x="8755.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_395" d="m8756.921379,12140.862259l0,25c27,3 100,0 131,0l0,-25c-39,0 -84,3 -131,0z" fill="rgb(217,218,219)"/>
+         </g>
+        </g>
+        <g id="svg_396" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id128">
+          <rect id="svg_397" height="28" width="111" y="12140.862259" x="8766.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_398" d="m8767.921379,12140.862259l0,25c22,3 83,0 108,0l0,-25c-33,0 -69,3 -108,0z" fill="rgb(226,227,228)"/>
+         </g>
+        </g>
+        <g id="svg_399" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id129">
+          <rect id="svg_400" height="29" width="97" y="12140.862259" x="8772.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_401" d="m8772.921379,12140.862259l0,25c28,3 64,3 95,0l0,-25c-28,0 -61,3 -95,0z" fill="rgb(238,238,239)"/>
+         </g>
+        </g>
+        <g id="svg_402" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id130">
+          <rect id="svg_403" height="97" width="540" y="12048.862259" x="8557.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_404" d="m8825.921379,12143.862259c151,0 270,-22 270,-50c0,-25 -119,-45 -270,-45c-150,0 -267,20 -267,45c0,25 117,50 267,50z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_405" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id131">
+          <rect id="svg_406" height="108" width="699" y="11808.862259" x="8936.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_407" d="m9274.921379,11915.862259c203,0 356,-42 359,-70c0,-3 -156,-36 -357,-36c-200,0 -339,25 -339,33c0,25 136,73 337,73z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_408" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id132">
+          <rect id="svg_409" height="175" width="699" y="11847.862259" x="8936.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_410" d="m9296.921379,11915.862259c187,0 337,-50 337,-67c-47,81 -156,173 -348,173c-195,0 -304,-92 -348,-173c14,22 147,67 337,67l22,0z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_411" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id133">
+          <rect id="svg_412" height="150" width="86" y="10794.862259" x="8780.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_413" d="m8864.921379,10795.862259l-83,0l0,148l83,0l0,-148z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_414" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id134">
+          <rect id="svg_415" height="108" width="450" y="10803.862259" x="8335.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_416" d="m8784.921379,10835.862259c-25,-12 -115,-53 -193,-17c-75,36 -136,81 -192,33c-44,-36 -78,25 -58,48c19,19 47,11 47,-14c42,19 117,36 164,11c78,-42 173,-28 232,8l0,-69z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_417" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id135">
+          <rect id="svg_418" height="63" width="34" y="10850.862259" x="8304.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_419" d="m8337.921379,10875.862259c0,-34 -20,-25 -20,-17c-19,0 -14,42 0,45c6,14 20,16 20,-28z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_420" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id136">
+          <rect id="svg_421" height="87" width="74" y="10900.862259" x="8326.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_422" d="m8370.921379,10909.862259c27,50 -14,64 -17,50c-9,-39 -36,-14 -22,11c16,20 47,20 61,3c17,-19 -3,-72 -3,-72l-19,8z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_423" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id137">
+          <rect id="svg_424" height="203" width="159" y="10956.862259" x="8284.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_425" d="m8354.921379,10957.862259c14,0 17,0 17,0c0,13 3,22 0,41c20,0 22,-8 22,9c0,36 0,114 14,122c9,6 20,-16 31,-5c11,11 -3,30 -31,22c-25,-6 -25,-53 -25,-81l-14,0l0,48c0,19 20,44 -5,44c-23,0 -6,-25 -6,-44c3,-14 0,-48 0,-48l-14,0c0,17 0,92 -39,84c-25,-6 -22,-28 -11,-28c17,0 22,28 34,-8c5,-12 11,-62 11,-92c0,-31 -3,-25 16,-25l0,-39z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_426" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id138">
+          <rect id="svg_427" height="86" width="136" y="11981.862259" x="8752.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_428" d="m8797.921379,12065.862259l-44,-42l42,-41l50,0l42,41l-45,42l-45,0z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_429" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id139">
+          <rect id="svg_430" height="108" width="447" y="10806.862259" x="8861.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_431" d="m8861.921379,10840.862259c20,-14 112,-56 187,-19c75,33 139,80 192,33c45,-36 84,25 59,47c-20,20 -48,11 -48,-14c-41,20 -117,37 -161,12c-78,-42 -176,-31 -229,8l0,-67z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_432" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id140">
+          <rect id="svg_433" height="61" width="35" y="10853.862259" x="9304.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_434" d="m9304.921379,10877.862259c0,-33 14,-25 20,-14c19,0 17,36 0,36c-11,20 -20,23 -20,-22z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_435" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id141">
+          <rect id="svg_436" height="90" width="75" y="10903.862259" x="9243.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_437" d="m9274.921379,10912.862259c-31,53 11,70 14,50c11,-33 41,-14 22,14c-20,20 -45,20 -61,3c-14,-22 2,-75 2,-75l23,8z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_438" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id142">
+          <rect id="svg_439" height="205" width="158" y="10959.862259" x="9204.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_440" d="m9288.921379,10959.862259c-12,0 -17,0 -17,0l0,39c-17,3 -20,-2 -20,14c0,36 0,114 -16,123c-6,8 -20,-17 -28,-6c-9,14 3,31 25,25c31,-8 28,-58 28,-86l14,0l0,53c0,17 -17,42 5,42c23,0 9,-25 9,-45c-3,-17 0,-50 0,-50l11,0c0,17 0,97 44,86c25,-8 20,-28 6,-28c-17,0 -20,31 -34,-5c-5,-17 -8,-64 -8,-95c0,-33 0,-28 -19,-28l0,-39z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_441" class="com.sun.star.drawing.LineShape">
+         <g id="id143">
+          <rect id="svg_442" height="711" width="267" y="11128.862259" x="8053.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_443" d="m8316.921379,11129.862259l-259,708" stroke-width="7" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_444" class="com.sun.star.drawing.LineShape">
+         <g id="id144">
+          <rect id="svg_445" height="718" width="282" y="11127.862259" x="8395.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_446" d="m8399.921379,11129.862259l273,713" stroke-width="7" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_447" class="com.sun.star.drawing.LineShape">
+         <g id="id145">
+          <rect id="svg_448" height="707" width="260" y="11130.862259" x="8980.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_449" d="m9235.921379,11132.862259l-251,702" stroke-width="7" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_450" class="com.sun.star.drawing.LineShape">
+         <g id="id146">
+          <rect id="svg_451" height="754" width="9" y="11159.862259" x="9275.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_452" d="m9279.921379,11160.862259l0,752" stroke-width="7" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_453" class="com.sun.star.drawing.LineShape">
+         <g id="id147">
+          <rect id="svg_454" height="709" width="265" y="11130.862259" x="9320.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_455" d="m9324.921379,11132.862259l256,705" stroke-width="7" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_456" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id148">
+          <rect id="svg_457" height="1047" width="71" y="10939.862259" x="8786.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_458" d="m8836.921379,10940.862259l20,19l-17,17l17,20l0,2l0,986l-70,0l0,-988l14,-20l-14,-17l20,-19l30,0z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_459" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id149">
+          <rect id="svg_460" height="91" width="91" y="10661.862259" x="8775.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_461" d="m8817.921379,10750.862259c25,0 47,-19 47,-44c0,-28 -22,-45 -47,-45c-22,0 -42,17 -42,45c0,25 20,44 42,44z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_462" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id150">
+          <rect id="svg_463" height="58" width="86" y="10744.862259" x="8780.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_464" d="m8864.921379,10801.862259l-83,0c0,0 22,-9 22,-56l36,0c0,30 0,36 25,56z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_465" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id151">
+          <rect id="svg_466" height="75" width="316" y="11819.862259" x="9307.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_467" d="m9622.921379,11856.862259c-31,-11 -234,-39 -315,-36c6,20 6,34 34,59c72,-9 142,8 175,14c36,-6 78,-17 106,-37z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_468" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id152">
+          <rect id="svg_469" height="72" width="272" y="11819.862259" x="9329.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_470" d="m9600.921379,11851.862259c-48,-12 -198,-31 -271,-31c3,14 3,31 25,58c37,-11 129,9 156,12c23,-3 76,-28 90,-39z" fill="rgb(166,168,170)"/>
+         </g>
+        </g>
+        <g id="svg_471" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id153">
+          <rect id="svg_472" height="72" width="239" y="11819.862259" x="9348.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_473" d="m9586.921379,11845.862259c-25,-6 -181,-25 -237,-25c0,17 0,25 22,53c28,0 112,11 137,17c22,-6 67,-31 78,-45z" fill="rgb(177,179,180)"/>
+         </g>
+        </g>
+        <g id="svg_474" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id154">
+          <rect id="svg_475" height="69" width="208" y="11822.862259" x="9365.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_476" d="m9572.921379,11845.862259c-25,-8 -159,-22 -206,-22c0,14 5,36 19,53c22,0 95,8 117,14c14,-6 59,-31 70,-45z" fill="rgb(189,191,192)"/>
+         </g>
+        </g>
+        <g id="svg_477" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id155">
+          <rect id="svg_478" height="66" width="180" y="11825.862259" x="9379.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_479" d="m9558.921379,11845.862259c-22,-8 -139,-19 -178,-19c0,13 0,27 16,52c20,-2 81,9 101,12c13,-3 52,-37 61,-45z" fill="rgb(199,201,202)"/>
+         </g>
+        </g>
+        <g id="svg_480" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id156">
+          <rect id="svg_481" height="63" width="155" y="11825.862259" x="9390.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_482" d="m9544.921379,11839.862259c-25,-5 -123,-13 -153,-13c2,16 0,25 11,50c25,2 72,8 89,11c11,-3 45,-36 53,-48z" fill="rgb(207,208,210)"/>
+         </g>
+        </g>
+        <g id="svg_483" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id157">
+          <rect id="svg_484" height="63" width="130" y="11825.862259" x="9401.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_485" d="m9530.921379,11837.862259c-17,-6 -103,-11 -128,-11c0,22 0,27 8,52c17,0 61,9 78,9c9,0 34,-36 42,-50z" fill="rgb(217,218,219)"/>
+         </g>
+        </g>
+        <g id="svg_486" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id158">
+          <rect id="svg_487" height="63" width="113" y="11825.862259" x="9410.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_488" d="m9522.921379,11837.862259c-14,-6 -90,-11 -112,-11c0,19 0,27 9,52c16,3 52,9 64,9c8,0 36,-39 39,-50z" fill="rgb(226,227,228)"/>
+         </g>
+        </g>
+        <g id="svg_489" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id159">
+          <rect id="svg_490" height="69" width="82" y="10683.862259" x="8780.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_491" d="m8781.921379,10728.862259c5,-5 8,0 14,-22c22,47 50,8 50,-22c16,11 16,22 14,44c-9,11 -31,22 -39,22c-9,-2 -28,0 -39,-22z" fill="rgb(99,100,101)"/>
+         </g>
+        </g>
+        <g id="svg_492" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id160">
+          <rect id="svg_493" height="27" width="27" y="11006.862259" x="8351.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_494" d="m8360.921379,11032.862259c11,0 17,-9 17,-11c0,-12 -6,-14 -17,-14c-3,0 -8,2 -8,14c0,2 5,11 8,11z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_495" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id161">
+          <rect id="svg_496" height="27" width="27" y="11006.862259" x="9268.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_497" d="m9282.921379,11032.862259c6,0 11,-9 11,-11c0,-12 -5,-14 -11,-14c-11,0 -14,2 -14,14c0,2 3,11 14,11z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_498" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id162">
+          <rect id="svg_499" height="979" width="41" y="11001.862259" x="8797.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_500" d="m8836.921379,11001.862259l-39,0l0,978l39,0l0,-978z" fill="rgb(166,168,170)"/>
+         </g>
+        </g>
+        <g id="svg_501" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id163">
+          <rect id="svg_502" height="979" width="35" y="11001.862259" x="8797.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_503" d="m8831.921379,11001.862259l-34,0l0,978l34,0l0,-978z" fill="rgb(177,179,180)"/>
+         </g>
+        </g>
+        <g id="svg_504" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id164">
+          <rect id="svg_505" height="979" width="30" y="11001.862259" x="8802.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_506" d="m8831.921379,11001.862259l-28,0l0,978l28,0l0,-978z" fill="rgb(189,191,192)"/>
+         </g>
+        </g>
+        <g id="svg_507" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id165">
+          <rect id="svg_508" height="979" width="28" y="11001.862259" x="8802.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_509" d="m8828.921379,11001.862259l-25,0l0,978l25,0l0,-978z" fill="rgb(199,201,202)"/>
+         </g>
+        </g>
+        <g id="svg_510" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id166">
+          <rect id="svg_511" height="979" width="25" y="11001.862259" x="8802.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_512" d="m8825.921379,11001.862259l-22,0l0,978l22,0l0,-978z" fill="rgb(207,208,210)"/>
+         </g>
+        </g>
+        <g id="svg_513" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id167">
+          <rect id="svg_514" height="175" width="698" y="11850.862259" x="8020.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_515" d="m8380.921379,11917.862259c178,0 331,-52 337,-66c-50,80 -156,172 -351,172c-190,0 -298,-92 -346,-172c11,19 148,66 335,66l25,0z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_516" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id168">
+          <rect id="svg_517" height="108" width="698" y="11811.862259" x="8020.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_518" d="m8355.921379,11917.862259c200,0 356,-41 362,-66c0,-3 -159,-39 -360,-39c-197,0 -337,27 -337,36c-2,22 137,69 335,69z" fill="rgb(145,147,148)"/>
+         </g>
+        </g>
+        <g id="svg_519" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id169">
+          <rect id="svg_520" height="74" width="319" y="11817.862259" x="8399.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_521" d="m8717.921379,11851.862259c-37,-12 -243,-34 -318,-34c3,17 3,31 34,59c69,-9 144,8 175,14c36,-6 81,-17 109,-39z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_522" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id170">
+          <rect id="svg_523" height="74" width="275" y="11817.862259" x="8421.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_524" d="m8694.921379,11851.862259c-47,-12 -200,-34 -273,-34c3,20 3,34 28,59c34,-9 126,11 153,14c23,-3 81,-28 92,-39z" fill="rgb(166,168,170)"/>
+         </g>
+        </g>
+        <g id="svg_525" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id171">
+          <rect id="svg_526" height="72" width="238" y="11819.862259" x="8438.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_527" d="m8675.921379,11848.862259c-28,-9 -184,-28 -237,-28c3,14 0,28 22,56c28,0 115,8 137,14c17,-3 67,-34 78,-42z" fill="rgb(177,179,180)"/>
+         </g>
+        </g>
+        <g id="svg_528" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id172">
+          <rect id="svg_529" height="69" width="208" y="11819.862259" x="8454.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_530" d="m8661.921379,11842.862259c-25,-5 -159,-22 -206,-22c3,14 5,36 17,53c27,0 97,11 119,14c17,-3 59,-31 70,-45z" fill="rgb(189,191,192)"/>
+         </g>
+        </g>
+        <g id="svg_531" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id173">
+          <rect id="svg_532" height="66" width="181" y="11822.862259" x="8468.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_533" d="m8647.921379,11839.862259c-19,-2 -139,-16 -178,-16c3,14 0,25 14,50c22,0 83,11 103,14c14,-3 53,-36 61,-48z" fill="rgb(199,201,202)"/>
+         </g>
+        </g>
+        <g id="svg_534" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id174">
+          <rect id="svg_535" height="63" width="156" y="11825.862259" x="8479.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_536" d="m8633.921379,11839.862259c-25,-5 -120,-13 -153,-13c3,13 0,22 14,47c22,3 72,11 86,14c11,-3 45,-36 53,-48z" fill="rgb(207,208,210)"/>
+         </g>
+        </g>
+        <g id="svg_537" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id175">
+          <rect id="svg_538" height="63" width="133" y="11825.862259" x="8488.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_539" d="m8619.921379,11837.862259c-17,-6 -103,-11 -131,-11c0,22 3,27 11,52c17,0 62,9 76,9c8,0 39,-36 44,-50z" fill="rgb(217,218,219)"/>
+         </g>
+        </g>
+        <g id="svg_540" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id176">
+          <rect id="svg_541" height="63" width="113" y="11825.862259" x="8499.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_542" d="m8611.921379,11837.862259c-17,-3 -87,-11 -112,-11c3,19 0,27 9,52c16,3 53,9 64,9c8,-3 33,-39 39,-50z" fill="rgb(226,227,228)"/>
+         </g>
+        </g>
+        <g id="svg_543" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id177">
+          <rect id="svg_544" height="114" width="233" y="11911.862259" x="8240.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_545" d="m8360.921379,12023.862259c31,-2 59,-5 67,-14c25,-19 42,-78 45,-97c-20,0 -45,3 -95,3l-25,0c-48,0 -95,-3 -112,-3c6,33 28,78 53,97c11,9 36,12 67,14z" fill="rgb(166,168,170)"/>
+         </g>
+        </g>
+        <g id="svg_546" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id178">
+          <rect id="svg_547" height="111" width="195" y="11914.862259" x="8259.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_548" d="m8360.921379,12023.862259c25,-2 47,-5 59,-14c19,-19 30,-75 33,-94c-14,0 -36,2 -78,2l-22,0c-39,0 -78,-2 -92,-2c3,30 22,75 42,94c8,9 33,12 58,14z" fill="rgb(177,179,180)"/>
+         </g>
+        </g>
+        <g id="svg_549" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id179">
+          <rect id="svg_550" height="111" width="166" y="11914.862259" x="8279.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_551" d="m8366.921379,12023.862259c19,-2 39,-5 47,-14c17,-19 28,-75 31,-94c-14,2 -34,2 -67,2l-20,0c-33,0 -67,-2 -78,-2c3,33 20,75 37,94c5,9 25,12 50,14z" fill="rgb(189,191,192)"/>
+         </g>
+        </g>
+        <g id="svg_552" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id180">
+          <rect id="svg_553" height="108" width="144" y="11914.862259" x="8287.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_554" d="m8360.921379,12021.862259c20,-3 36,-9 42,-14c14,-20 25,-76 28,-92l-59,0l-11,0c-33,0 -61,0 -72,0c0,28 16,72 30,92c6,5 25,11 42,14z" fill="rgb(199,201,202)"/>
+         </g>
+        </g>
+        <g id="svg_555" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id181">
+          <rect id="svg_556" height="108" width="125" y="11917.862259" x="8298.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_557" d="m8360.921379,12023.862259c17,-2 34,-5 39,-14c11,-19 22,-75 22,-92l-53,0l-8,0l-61,0c3,31 14,73 28,92c5,9 19,12 33,14z" fill="rgb(207,208,210)"/>
+         </g>
+        </g>
+        <g id="svg_558" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id182">
+          <rect id="svg_559" height="108" width="88" y="11917.862259" x="8318.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_560" d="m8363.921379,12023.862259c11,-2 22,-5 25,-14c8,-19 14,-72 17,-92c-9,0 -17,0 -37,0l-11,0l-39,0c0,31 9,73 17,92c3,9 14,12 28,14z" fill="rgb(217,218,219)"/>
+         </g>
+        </g>
+        <g id="svg_561" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id183">
+          <rect id="svg_562" height="108" width="78" y="11917.862259" x="8323.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_563" d="m8363.921379,12023.862259c8,-2 17,-5 22,-14c6,-19 11,-72 14,-92l-31,0l-11,0l-33,0c0,31 5,73 17,92c2,9 11,12 22,14z" fill="rgb(226,227,228)"/>
+         </g>
+        </g>
+        <g id="svg_564" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id184">
+          <rect id="svg_565" height="110" width="233" y="11909.862259" x="9159.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_566" d="m9279.921379,12018.862259c28,-3 59,-6 67,-14c22,-20 39,-75 45,-95c-20,0 -48,3 -95,3l-25,0c-47,0 -95,-3 -111,-3c5,31 27,75 52,95c9,8 37,11 67,14z" fill="rgb(166,168,170)"/>
+         </g>
+        </g>
+        <g id="svg_567" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id185">
+          <rect id="svg_568" height="108" width="196" y="11911.862259" x="9179.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_569" d="m9282.921379,12018.862259c25,-3 50,-6 56,-14c19,-20 33,-75 36,-92c-14,0 -36,0 -78,0l-22,0c-42,0 -78,0 -95,0c3,31 25,72 45,92c5,8 30,11 58,14z" fill="rgb(177,179,180)"/>
+         </g>
+        </g>
+        <g id="svg_570" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id186">
+          <rect id="svg_571" height="108" width="164" y="11911.862259" x="9198.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_572" d="m9285.921379,12018.862259c19,-3 39,-6 44,-14c20,-20 28,-75 31,-92c-11,0 -31,0 -64,0l-20,0c-36,0 -69,0 -77,0c2,31 16,72 33,92c8,8 28,11 53,14z" fill="rgb(189,191,192)"/>
+         </g>
+        </g>
+        <g id="svg_573" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id187">
+          <rect id="svg_574" height="108" width="144" y="11911.862259" x="9206.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_575" d="m9279.921379,12018.862259c20,0 36,-3 42,-14c14,-20 25,-73 28,-92l-59,0l-16,0c-28,0 -59,0 -67,0c0,31 17,72 30,92c6,11 23,14 42,14z" fill="rgb(199,201,202)"/>
+         </g>
+        </g>
+        <g id="svg_576" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id188">
+          <rect id="svg_577" height="105" width="124" y="11914.862259" x="9218.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_578" d="m9279.921379,12018.862259c17,-3 34,-6 39,-14c14,-20 20,-70 23,-89l-53,0l-12,0l-58,0c3,28 14,69 25,89c8,8 22,11 36,14z" fill="rgb(207,208,210)"/>
+         </g>
+        </g>
+        <g id="svg_579" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id189">
+          <rect id="svg_580" height="105" width="88" y="11914.862259" x="9237.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_581" d="m9282.921379,12018.862259c11,-3 22,-6 28,-14c5,-20 14,-70 14,-89c-9,0 -17,0 -36,0l-6,0l-45,0c3,28 9,69 17,89c6,8 14,11 28,14z" fill="rgb(217,218,219)"/>
+         </g>
+        </g>
+        <g id="svg_582" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id190">
+          <rect id="svg_583" height="105" width="77" y="11914.862259" x="9243.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_584" d="m9282.921379,12018.862259c8,-3 17,-6 20,-14c8,-20 13,-70 16,-89l-30,0l-12,0l-33,0c0,28 8,69 17,89c3,8 11,11 22,14z" fill="rgb(226,227,228)"/>
+         </g>
+        </g>
+        <g id="svg_585" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id191">
+          <rect id="svg_586" height="28" width="91" y="10758.862259" x="8775.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_587" d="m8817.921379,10784.862259c25,0 47,3 47,-14c0,-11 -22,-11 -47,-11c-25,0 -42,0 -42,11c0,17 11,14 42,14z" fill="rgb(156,158,159)"/>
+         </g>
+        </g>
+        <g id="svg_588" class="com.sun.star.drawing.LineShape">
+         <g id="id192">
+          <rect id="svg_589" height="759" width="9" y="11154.862259" x="8356.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_590" d="m8360.921379,11154.862259l0,758" stroke-width="7" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_591" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id193">
+          <rect id="svg_592" height="2675" width="2519" y="11858.862259" x="9942.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_593" d="m10221.921379,13488.862259c668,-459 1047,-1016 1342,-1601l866,317c-376,958 -1019,1752 -2052,2298l-407,-498l251,-516z" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_594" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id194">
+          <rect id="svg_595" height="2618" width="2461" y="11886.862259" x="9970.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_596" d="m10221.921379,13488.862259c668,-459 1047,-1016 1342,-1601l866,317c-376,958 -1019,1752 -2052,2298l-407,-498l251,-516z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_597" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id195">
+          <rect id="svg_598" height="730" width="820" y="13838.862259" x="10013.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_599" d="m10037.921379,14215.862259l320,329l451,-682l-771,353z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_600" class="com.sun.star.drawing.PolyPolygonShape">
+         <g id="id196">
+          <rect id="svg_601" height="684" width="774" y="13861.862259" x="10036.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_602" d="m10037.921379,14215.862259l320,329l451,-682l-771,353z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_603" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id197">
+          <rect id="svg_604" height="1434" width="4207" y="13131.862259" x="6629.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_605" d="m7257.921379,13168.862259c981,571 1961,641 2941,-14l613,716c-1398,927 -2785,866 -4158,-17l604,-685z" stroke-linejoin="round" stroke-width="46" stroke="rgb(27,25,24)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_606" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id198">
+          <rect id="svg_607" height="1388" width="4161" y="13154.862259" x="6652.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_608" d="m7257.921379,13168.862259c981,571 1961,641 2941,-14l613,716c-1398,927 -2785,866 -4158,-17l604,-685z" fill="rgb(227,0,22)"/>
+         </g>
+        </g>
+        <g id="svg_609" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id199">
+          <rect id="svg_610" height="1682" width="1339" y="12148.862259" x="10811.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_611" d="m12037.921379,12555.862259l-379,-203l106,-203l67,33l-81,148l86,44l73,-136l64,33l-76,139l106,56l81,-156l64,34l-111,211zm0,0l0,0zm-268,159l-58,-45l78,-111l139,100c6,20 8,48 6,73c-3,28 -14,53 -28,75c-17,25 -42,42 -73,53c-27,8 -61,8 -97,0c-34,-11 -70,-28 -103,-53c-39,-25 -67,-53 -86,-86c-23,-28 -31,-62 -34,-92c0,-28 11,-50 25,-75c22,-31 50,-51 81,-56c31,-6 64,3 100,19l-22,62c-20,-12 -39,-12 -56,-9c-16,3 -30,11 -42,28c-13,22 -19,45 -8,72c11,28 36,56 75,81c45,31 78,45 109,48c31,0 53,-12 70,-34c5,-8 11,-22 13,-39c0,-11 0,-28 -2,-42l-45,-30l-42,61zm0,0l0,0zm-175,499l-343,-268l142,-184l59,48l-103,131l75,64l100,-128l56,44l-95,126l92,72l106,-142l56,50l-145,187zm0,0l0,0zm-206,222l-326,-275l42,-48l270,229l103,-120l56,47l-145,167zm0,0l0,0zm-362,140l0,0l-131,-103l61,153l70,-50zm0,0l0,0zm192,67l-56,41l-78,-64l-100,75l36,95l-53,39l-156,-418l50,-41l357,273z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_612" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id200">
+          <rect id="svg_613" height="832" width="3107" y="13502.862259" x="7215.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_614" d="m10045.921379,13934.862259l56,-39c17,28 33,45 50,53c20,6 39,6 56,-3c22,-8 33,-22 36,-39c6,-17 6,-33 -3,-47c-5,-11 -11,-20 -19,-22c-9,-6 -17,-9 -31,-9c-8,0 -28,3 -58,6c-39,5 -70,3 -92,-9c-31,-16 -53,-39 -70,-72c-11,-22 -17,-47 -17,-72c0,-20 6,-42 17,-59c11,-19 31,-33 56,-45c36,-19 72,-22 103,-5c30,11 56,36 78,75l-61,34c-14,-20 -28,-34 -39,-37c-14,-5 -31,-2 -48,3c-19,8 -30,22 -36,36c-3,11 0,23 3,37c5,8 14,16 22,22c14,3 36,3 70,0c36,-6 64,-9 83,-3c20,3 39,11 56,25c17,14 31,36 44,64c14,22 17,48 20,75c0,25 -6,48 -20,67c-13,17 -33,36 -58,48c-39,19 -75,22 -109,8c-33,-17 -64,-47 -89,-92zm0,0l0,0zm-64,175l-75,20l-56,-100l-131,36l0,114l-72,20l11,-499l72,-19l251,428zm0,0l0,0zm-170,-150l0,0l-92,-159l0,184l92,-25zm0,0l0,0zm-404,304l-72,-387l-100,16l-17,-78l267,-50l17,78l-100,20l75,390l-70,11zm0,0l0,0zm-534,-98l66,-14c6,31 14,56 28,70c14,14 31,22 50,22c23,-3 42,-11 53,-25c9,-11 14,-28 12,-44c0,-14 -3,-23 -6,-28c-6,-9 -14,-17 -28,-20c-8,-5 -25,-14 -56,-22c-36,-11 -61,-25 -78,-45c-22,-25 -33,-55 -36,-92c0,-25 3,-47 11,-69c11,-22 25,-36 42,-50c17,-11 39,-17 67,-17c42,-3 78,8 97,36c26,22 37,56 39,100l-66,6c-6,-22 -14,-39 -23,-50c-11,-11 -25,-14 -44,-14c-20,0 -36,6 -48,19c-8,9 -11,17 -11,31c3,11 6,20 11,28c12,8 34,19 67,28c34,11 59,19 75,30c17,12 31,28 39,48c12,19 17,47 17,78c0,28 -3,53 -11,75c-11,25 -25,42 -47,56c-17,11 -42,19 -73,19c-42,3 -78,-11 -100,-39c-25,-25 -39,-64 -47,-117zm0,0l0,0zm-421,148l39,-474l254,20l-9,78l-184,-14l-8,106l173,14l-9,78l-170,-14l-11,131l192,16l-8,78l-259,-19zm0,0l0,0zm-345,-59l72,-387l-97,-19l14,-78l267,50l-17,78l-100,-20l-70,390l-69,-14zm0,0l0,0zm-488,-384c17,-45 36,-84 56,-109c17,-19 33,-39 53,-50c17,-17 36,-25 56,-30c25,-3 50,0 75,8c47,17 78,53 92,106c14,50 8,111 -17,184c-28,72 -61,122 -103,158c-42,31 -86,37 -137,20c-47,-20 -78,-56 -91,-106c-14,-50 -9,-109 16,-181zm0,0l0,0zm70,19l0,0c-20,53 -25,95 -17,126c9,30 25,53 50,61c28,8 50,6 78,-17c25,-19 48,-53 67,-105c20,-53 25,-92 17,-123c-6,-31 -25,-53 -53,-61c-25,-11 -50,-6 -78,16c-25,20 -47,53 -64,103zm0,0l0,0zm-474,48l190,-435l103,42c39,17 61,31 72,42c17,14 25,36 25,61c3,28 -2,59 -19,95c-11,28 -25,47 -39,64c-14,14 -31,25 -45,31c-16,5 -30,5 -44,5c-14,-3 -39,-11 -67,-22l-42,-20l-72,162l-62,-25zm0,0l0,0zm223,-334l0,0l-56,125l34,14c28,11 44,17 53,17c11,0 19,-6 30,-14c9,-9 17,-17 23,-31c5,-17 11,-33 5,-45c0,-14 -5,-25 -16,-30c-6,-6 -20,-14 -42,-23l-31,-13z" fill="rgb(255,255,255)"/>
+         </g>
+        </g>
+        <g id="svg_615" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id201">
+          <rect id="svg_616" height="4508" width="12131" y="15279.862259" x="2678.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_617" d="m8742.921379,16842.862259c-1947,0 -3944,-401 -6003,-1501l0,2169l0,1062c2014,793 4017,1153 6003,1153c1988,0 3991,-360 6005,-1153l0,-1062l0,-2169c-2059,1100 -4056,1501 -6005,1501z" stroke-linejoin="round" stroke-width="122" stroke="rgb(7,11,4)" fill="none"/>
+         </g>
+        </g>
+        <g id="svg_618" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id202">
+          <rect id="svg_619" height="4386" width="12009" y="15340.862259" x="2739.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_620" d="m8742.921379,16842.862259c-1947,0 -3944,-401 -6003,-1501l0,2169l0,1062c2014,793 4017,1153 6003,1153c1988,0 3991,-360 6005,-1153l0,-1062l0,-2169c-2059,1100 -4056,1501 -6005,1501z" fill="rgb(198,167,67)"/>
+         </g>
+        </g>
+        <g id="svg_621" class="com.sun.star.drawing.ClosedBezierShape">
+         <g id="id203">
+          <rect id="svg_622" height="2213" width="8045" y="16992.862259" x="4722.921379" fill="none" class="BoundingBox"/>
+          <path id="svg_623" d="m6005.921379,18218.862259l468,259c-64,131 -142,239 -234,317c-92,78 -195,128 -312,153c-117,25 -259,20 -423,-14c-201,-44 -356,-108 -471,-192c-114,-86 -203,-214 -262,-379c-58,-167 -64,-364 -19,-590c67,-306 198,-524 393,-652c197,-128 443,-159 741,-97c231,50 401,133 515,256c111,123 181,290 203,499l-526,2c-6,-58 -14,-103 -28,-133c-22,-51 -56,-92 -95,-129c-42,-33 -92,-55 -147,-66c-128,-28 -240,2 -329,94c-70,64 -120,179 -156,343c-45,203 -42,351 3,440c47,86 125,145 237,167c108,25 197,11 267,-39c67,-47 128,-128 175,-239zm0,0l0,0zm972,-992l580,53l-170,1877l-582,-53l172,-1877zm0,0l0,0zm764,106l607,-11l443,1351l398,-1362l588,-12l-669,1897l-629,9l-738,-1872zm0,0l0,0zm2194,-86l580,-73l231,1872l-577,72l-234,-1871zm0,0l0,0zm978,-123l568,-123l298,1388l889,-193l97,452l-1454,317l-398,-1841z" fill="rgb(7,11,4)"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,7 +1,0 @@
-<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="120" height="40" rx="8" fill="#1E40AF"/>
-  <text x="60" y="15" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">POLÍCIA CIVIL</text>
-  <text x="60" y="28" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">MATO GROSSO</text>
-  <circle cx="15" cy="20" r="8" fill="white" opacity="0.2"/>
-  <path d="M12 20l2 2 4-4" stroke="white" stroke-width="1.5" fill="none"/>
-</svg>

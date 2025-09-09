@@ -24,7 +24,7 @@ const Nav = () => {
                 <div className="relative h-8 w-8 object-contain">
                   <Image
                     className="object-contain"
-                    src="https://desaparecidos.pjc.mt.gov.br/assets/img/pjc_logo.svg"
+                    src="/pjc_logo.svg"
                     alt="Polícia Civil de Mato Grosso"
                     fill
                     sizes="32px"
