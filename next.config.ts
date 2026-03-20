@@ -9,13 +9,19 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "abitus-api.geia.vip",
+        hostname: "abitus-api.pjc.mt.gov.br",
         port: "",
         pathname: "/**",
       },
       {
         protocol: "https",
         hostname: "s3dev.pjc.mt.gov.br",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "s3.pjc.mt.gov.br",
         port: "",
         pathname: "/**",
       },
@@ -63,7 +69,8 @@ const nextConfig: NextConfig = {
 
   env: {
     NEXT_PUBLIC_API_BASE_URL:
-      process.env.NEXT_PUBLIC_API_BASE_URL || "https://abitus-api.geia.vip/v1",
+      process.env.NEXT_PUBLIC_API_BASE_URL ||
+      "https://abitus-api.pjc.mt.gov.br/v1",
   },
 };
 

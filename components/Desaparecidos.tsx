@@ -1,67 +1,33 @@
 "use client";
 
-import React, { useState, useCallback } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { useSearchParams } from "next/navigation";
-import { usePessoas } from "@/api/hooks";
-import { FiltrosPessoas } from "@/api/api";
 import { PessoaCard, PessoaCardSkeleton } from "./ui/PessoaCard";
 import { FiltrosBusca } from "./ui/FiltrosBusca";
 import { Paginacao } from "./ui/Paginacao";
 import { ErrorMessage } from "./ui/LoadingStates";
 import { Search, Filter, Users } from "lucide-react";
+import { useDesaparecidosFacade } from "./hooks/useDesaparecidosFacade";
 
 const Desaparecidos = () => {
-  const searchParams = useSearchParams();
-  const statusParam = searchParams.get("status");
-
   const {
-    data: pessoas,
+    pessoas,
     loading,
     error,
     total,
-    pagina: paginaAtual,
+    paginaAtual,
     porPagina,
     totalPaginas,
     buscar,
     proximaPagina,
     paginaAnterior,
     irParaPagina,
-  } = usePessoas();
-
-  const [mostrarResultados, setMostrarResultados] = useState(false);
-  const [ultimoStatusParam, setUltimoStatusParam] = useState(statusParam);
-  const [mostrarFiltros, setMostrarFiltros] = useState(false);
-
-  React.useEffect(() => {
-    if (
-      !loading &&
-      (!pessoas || pessoas.length === 0) &&
-      total === 0 &&
-      !error &&
-      !mostrarResultados
-    ) {
-      const statusFiltro =
-        statusParam === "localizado" ? "LOCALIZADO" : "DESAPARECIDO";
-      buscar({ status: statusFiltro, pagina: 0, porPagina: 12 });
-      setMostrarResultados(true);
-      setUltimoStatusParam(statusParam);
-    }
-  }, [statusParam, loading, pessoas, total, error, mostrarResultados]);
-
-  React.useEffect(() => {
-    if (mostrarResultados && statusParam !== ultimoStatusParam) {
-      const statusFiltro =
-        statusParam === "localizado" ? "LOCALIZADO" : "DESAPARECIDO";
-      buscar({ status: statusFiltro, pagina: 0, porPagina: 12 });
-      setUltimoStatusParam(statusParam);
-    }
-  }, [statusParam, ultimoStatusParam, mostrarResultados]);
-
-  const handleBuscar = useCallback((filtros: FiltrosPessoas) => {
-    buscar({ ...filtros, porPagina: 12 });
-    setMostrarResultados(true);
-  }, []);
+    mostrarResultados,
+    mostrarFiltros,
+    setMostrarFiltros,
+    handleBuscar,
+    statusParam,
+  } = useDesaparecidosFacade();
 
   const renderSkeleton = () => (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">

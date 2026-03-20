@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
-import { useBuscarPessoasComFiltro } from "@/api/hooks";
+import React from "react";
 import { PessoaCard } from "./PessoaCard";
 import { LoadingSpinner } from "./LoadingStates";
 import { AnimatePresence, motion } from "framer-motion";
+import { useModalBuscarPessoaFacade } from "../hooks/useModalBuscarPessoaFacade";
 import {
   overlayVariant,
   modalVariant,
@@ -23,88 +23,30 @@ export function ModalBuscarPessoa({
   onClose,
   initialStatus,
 }: ModalBuscarPessoaProps) {
-  const [termoBusca, setTermoBusca] = useState("");
-  const [sexoFiltro, setSexoFiltro] = useState<
-    "TODOS" | "MASCULINO" | "FEMININO"
-  >("TODOS");
-  const [statusFiltro, setStatusFiltro] = useState<
-    "TODOS" | "DESAPARECIDO" | "LOCALIZADO"
-  >(initialStatus || "TODOS");
-  const [idadeMin, setIdadeMin] = useState("");
-  const [idadeMax, setIdadeMax] = useState("");
-  const [resultadosBusca, setResultadosBusca] = useState<any[]>([]);
-  const [foiBuscado, setFoiBuscado] = useState(false);
-  const abriuComStatusRef = useRef<string | null>(null);
-
   const {
-    data: pessoas,
+    termoBusca,
+    setTermoBusca,
+    sexoFiltro,
+    setSexoFiltro,
+    statusFiltro,
+    setStatusFiltro,
+    idadeMin,
+    setIdadeMin,
+    idadeMax,
+    setIdadeMax,
+    resultadosBusca,
+    foiBuscado,
+    filtrosAbertos,
+    setFiltrosAbertos,
     loading,
     error,
     total,
-    buscar,
-  } = useBuscarPessoasComFiltro();
-  const [filtrosAbertos, setFiltrosAbertos] = useState(true);
-
-  useEffect(() => {
-    if (isOpen) {
-      setStatusFiltro(initialStatus || "TODOS");
-      setResultadosBusca([]);
-      setFoiBuscado(false);
-
-      if (initialStatus) {
-        abriuComStatusRef.current = initialStatus;
-        setFoiBuscado(true);
-        buscar({ status: initialStatus, pagina: 0, porPagina: 20 });
-      }
-    } else {
-      setTermoBusca("");
-      setSexoFiltro("TODOS");
-      setIdadeMin("");
-      setIdadeMax("");
-      abriuComStatusRef.current = null;
-    }
-  }, [isOpen, initialStatus]);
-
-  useEffect(() => {
-    setResultadosBusca(pessoas);
-  }, [pessoas]);
+    handleBuscar,
+    limparFiltros,
+  } = useModalBuscarPessoaFacade({ isOpen, initialStatus });
 
   const handleClose = () => {
     onClose();
-  };
-
-  const handleBuscar = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (
-      !termoBusca.trim() &&
-      sexoFiltro === "TODOS" &&
-      statusFiltro === "TODOS" &&
-      !idadeMin &&
-      !idadeMax
-    ) {
-      alert("Preencha pelo menos um campo para buscar");
-      return;
-    }
-    setFoiBuscado(true);
-    const filtros: any = { pagina: 0, porPagina: 20 };
-    if (termoBusca.trim()) filtros.nome = termoBusca.trim();
-    if (sexoFiltro !== "TODOS") filtros.sexo = sexoFiltro;
-    if (statusFiltro !== "TODOS") filtros.status = statusFiltro;
-    if (idadeMin && !isNaN(Number(idadeMin)))
-      filtros.faixaIdadeInicial = Number(idadeMin);
-    if (idadeMax && !isNaN(Number(idadeMax)))
-      filtros.faixaIdadeFinal = Number(idadeMax);
-    await buscar(filtros);
-  };
-
-  const limparFiltros = () => {
-    setTermoBusca("");
-    setSexoFiltro("TODOS");
-    setStatusFiltro(initialStatus || "TODOS");
-    setIdadeMin("");
-    setIdadeMax("");
-    setResultadosBusca([]);
-    setFoiBuscado(false);
   };
 
   return (

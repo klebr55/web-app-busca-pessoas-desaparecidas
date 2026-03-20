@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
@@ -14,33 +14,35 @@ import { ModalPoliticaPrivacidade } from "./ui/ModalPoliticaPrivacidade";
 import { ModalTermosUso } from "./ui/ModalTermosUso";
 import { ModalCookies } from "./ui/ModalCookies";
 import { ModalEmergencia190 } from "./ui/ModalEmergencia190";
+import { useFooterFacade } from "./hooks/useFooterFacade";
 
 const Footer = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isEstatisticasOpen, setIsEstatisticasOpen] = useState(false);
-  const [isMapaOpen, setIsMapaOpen] = useState(false);
-  const [isComoAjudarOpen, setIsComoAjudarOpen] = useState(false);
-  const [isBuscarOpen, setIsBuscarOpen] = useState(false);
-  const [buscarStatusInicial, setBuscarStatusInicial] = useState<
-    "DESAPARECIDO" | "LOCALIZADO" | undefined
-  >(undefined);
-  const [isFaqOpen, setIsFaqOpen] = useState(false);
-  const [isContatoOpen, setIsContatoOpen] = useState(false);
-  const [isPrivOpen, setIsPrivOpen] = useState(false);
-  const [isTermosOpen, setIsTermosOpen] = useState(false);
-  const [isCookiesOpen, setIsCookiesOpen] = useState(false);
-  const [isEmergenciaOpen, setIsEmergenciaOpen] = useState(false);
-
-  useEffect(() => {
-    const handler = () => setIsContatoOpen(true);
-
-    window.addEventListener("open-contato-modal", handler as EventListener);
-    return () =>
-      window.removeEventListener(
-        "open-contato-modal",
-        handler as EventListener,
-      );
-  }, []);
+  const {
+    isModalOpen,
+    setIsModalOpen,
+    isEstatisticasOpen,
+    setIsEstatisticasOpen,
+    isMapaOpen,
+    setIsMapaOpen,
+    isComoAjudarOpen,
+    setIsComoAjudarOpen,
+    isBuscarOpen,
+    setIsBuscarOpen,
+    buscarStatusInicial,
+    setBuscarStatusInicial,
+    isFaqOpen,
+    setIsFaqOpen,
+    isContatoOpen,
+    setIsContatoOpen,
+    isPrivOpen,
+    setIsPrivOpen,
+    isTermosOpen,
+    setIsTermosOpen,
+    isCookiesOpen,
+    setIsCookiesOpen,
+    isEmergenciaOpen,
+    setIsEmergenciaOpen,
+  } = useFooterFacade();
 
   return (
     <>
@@ -228,8 +230,8 @@ const Footer = () => {
             <div className="flex flex-col items-center justify-between gap-4 sm:flex-row w-full">
               <div className="flex flex-col items-center sm:flex-row sm:items-center text-center sm:text-left text-xs text-gray-500">
                 <span>
-                  © 2025 Polícia Judiciária Civil de Mato Grosso. Todos os direitos
-                  reservados.
+                  © 2025 Polícia Judiciária Civil de Mato Grosso. Todos os
+                  direitos reservados.
                 </span>
                 <span className="hidden sm:inline mx-3 text-gray-400">•</span>
                 <span className="mt-1 sm:mt-0 flex items-center gap-1 text-[11px] text-gray-400">

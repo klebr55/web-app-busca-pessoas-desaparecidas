@@ -1,14 +1,10 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePessoaDetalhe, useInformacoesOcorrencia } from "@/api/hooks";
 import { LoadingSpinner, ErrorMessage } from "@/components/ui/LoadingStates";
 import { FormularioInformacao } from "@/components/ui/FormularioInformacao";
-import { format } from "date-fns";
-import { ptBR } from "date-fns/locale";
 import {
   FaUser,
   FaTransgender,
@@ -24,105 +20,27 @@ import {
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
 import CarrosselPessoas from "@/components/ui/CarrosselPessoas";
+import { usePessoaDetalhesFacade } from "./hooks/usePessoaDetalhesFacade";
+import { useGalleryModal } from "./hooks/useGalleryModal";
+import { formatarData } from "@/lib/domain/pessoaUtils";
 
 export default function PaginaDetalhes() {
-  const params = useParams();
-  const { pessoa, loading, error, carregarPessoa } = usePessoaDetalhe();
-  const { informacoes: informacoesOcorrencia, loading: loadingInformacoes } =
-    useInformacoesOcorrencia(pessoa?.ultimaOcorrencia?.ocoId || null);
-  const [mostrarFormulario, setMostrarFormulario] = useState(false);
+  const {
+    id,
+    pessoa,
+    loading,
+    error,
+    carregarPessoa,
+    informacoesOcorrencia,
+    loadingInformacoes,
+    anexosFotos,
+    getCartazInfo,
+  } = usePessoaDetalhesFacade();
 
-  const id = params?.id ? parseInt(params.id as string) : null;
-
-  const formatarData = (dataIso?: string | null) => {
-    if (!dataIso) return "-";
-    try {
-      return format(new Date(dataIso), "dd/MM/yyyy", { locale: ptBR });
-    } catch {
-      return "-";
-    }
-  };
-
-  const calcularIdadeAtual = (
-    idadeNaEpoca?: number,
-    dataDesap?: string | null,
-  ) => {
-    if (!idadeNaEpoca || !dataDesap) return idadeNaEpoca || 0;
-    try {
-      const d = new Date(dataDesap);
-      const hoje = new Date();
-      let anosPassados = hoje.getFullYear() - d.getFullYear();
-      const mDiff = hoje.getMonth() - d.getMonth();
-      if (mDiff < 0 || (mDiff === 0 && hoje.getDate() < d.getDate()))
-        anosPassados--;
-      return idadeNaEpoca + (anosPassados > 0 ? anosPassados : 0);
-    } catch {
-      return idadeNaEpoca;
-    }
-  };
-
-  const anexosFotos = React.useMemo(() => {
-    const lista: { url: string; data: string }[] = [];
-    informacoesOcorrencia.forEach((info) => {
-      info.anexos.forEach((an) => {
-        if (/\.(jpe?g|png|webp|gif|avif)$/i.test(an)) {
-          lista.push({ url: an, data: info.data });
-        }
-      });
-    });
-    return lista;
-  }, [informacoesOcorrencia]);
-
-  interface ModalItem {
-    src: string;
-    type: "image" | "pdf" | "video";
-    caption?: string;
-  }
-  const [modal, setModal] = useState<{
-    open: boolean;
-    items: ModalItem[];
-    index: number;
-  }>({ open: false, items: [], index: 0 });
-  const [isModalSemCartazOpen, setIsModalSemCartazOpen] = useState(false);
-
-  const openModal = (items: ModalItem[], index: number) => {
-    setModal({ open: true, items, index });
-  };
-  const closeModal = () => setModal((m) => ({ ...m, open: false }));
-  const prevModal = () =>
-    setModal((m) => ({
-      ...m,
-      index: (m.index - 1 + m.items.length) % m.items.length,
-    }));
-  const nextModal = () =>
-    setModal((m) => ({ ...m, index: (m.index + 1) % m.items.length }));
-
-  useEffect(() => {
-    if (modal.open) {
-      const prev = document.body.style.overflow;
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = prev;
-      };
-    }
-  }, [modal.open]);
-
-  useEffect(() => {
-    if (id) {
-      carregarPessoa(id);
-    }
-  }, [id, carregarPessoa]);
-
-  useEffect(() => {
-    if (!modal.open) return;
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === "Escape") closeModal();
-      if (e.key === "ArrowLeft") prevModal();
-      if (e.key === "ArrowRight") nextModal();
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  }, [modal.open]);
+  const { modal, openModal, closeModal, prevModal, nextModal } =
+    useGalleryModal();
+  const [mostrarFormulario, setMostrarFormulario] = React.useState(false);
+  const [isModalSemCartazOpen, setIsModalSemCartazOpen] = React.useState(false);
 
   if (loading) {
     return (
@@ -167,40 +85,8 @@ export default function PaginaDetalhes() {
     );
   }
 
-  const statusColor =
-    pessoa.status === "DESAPARECIDO" ? "bg-red-600" : "bg-green-600";
-
-  const getStatusText = (status: string, sexo: string) => {
-    if (status === "DESAPARECIDO") {
-      return sexo === "MASCULINO" ? "DESAPARECIDO" : "DESAPARECIDA";
-    } else {
-      return sexo === "MASCULINO" ? "LOCALIZADO" : "LOCALIZADA";
-    }
-  };
-
-  const statusText = getStatusText(pessoa.status, pessoa.sexo);
-  const idadeAtual = calcularIdadeAtual(
-    pessoa.idade,
-    pessoa.dataDesaparecimento,
-  );
-
-  const hasCartazOficial = (() => {
-    const hasValidUrl =
-      pessoa.cartaz?.urlCartaz &&
-      typeof pessoa.cartaz.urlCartaz === "string" &&
-      pessoa.cartaz.urlCartaz.trim() !== "";
-    const hasValidType =
-      pessoa.cartaz?.tipoCartaz &&
-      [
-        "PDF_DESAPARECIDO",
-        "PDF_LOCALIZADO",
-        "JPG_DESAPARECIDO",
-        "JPG_LOCALIZADO",
-        "INSTA_DESAPARECIDO",
-        "INSTA_LOCALIZADO",
-      ].includes(pessoa.cartaz.tipoCartaz);
-    return Boolean(hasValidUrl && hasValidType);
-  })();
+  const { hasCartazOficial, statusColor, statusText, idadeAtual } =
+    getCartazInfo();
 
   const compartilharWhatsapp = () => {
     try {
@@ -236,7 +122,10 @@ export default function PaginaDetalhes() {
   const gerarCartaz = async () => {
     const largura = 1080;
     const altura = 1350;
-    const dpr = Math.max(1, Math.min(2, Math.floor(window.devicePixelRatio || 1)));
+    const dpr = Math.max(
+      1,
+      Math.min(2, Math.floor(window.devicePixelRatio || 1)),
+    );
 
     const canvas = document.createElement("canvas");
     canvas.width = largura * dpr;
@@ -247,7 +136,6 @@ export default function PaginaDetalhes() {
     if (!ctx) return;
     ctx.scale(dpr, dpr);
 
-    
     const fundo = ctx.createLinearGradient(0, 0, 0, altura);
     fundo.addColorStop(0, "#0b1220");
     fundo.addColorStop(0.55, "#0b1220");
@@ -258,7 +146,6 @@ export default function PaginaDetalhes() {
     const paddingX = 72;
     const topH = Math.round(altura * 0.6);
 
-    
     const fotoUrl = pessoa.urlFoto || pessoa.foto || "";
     let fotoCarregada = false;
     if (fotoUrl) {
@@ -278,7 +165,6 @@ export default function PaginaDetalhes() {
         const dy = (topH - drawH) / 2;
         ctx.drawImage(img, dx, dy, drawW, drawH);
 
-        
         const overlay = ctx.createLinearGradient(0, topH - 260, 0, topH);
         overlay.addColorStop(0, "rgba(0,0,0,0)");
         overlay.addColorStop(1, "rgba(0,0,0,0.65)");
@@ -299,8 +185,8 @@ export default function PaginaDetalhes() {
       ctx.fillText("SEM FOTO", largura / 2, Math.round(topH * 0.52));
     }
 
-    
-    const statusTexto = pessoa.status === "DESAPARECIDO" ? "DESAPARECIDO(A)" : "LOCALIZADO(A)";
+    const statusTexto =
+      pessoa.status === "DESAPARECIDO" ? "DESAPARECIDO(A)" : "LOCALIZADO(A)";
     const statusBg = pessoa.status === "DESAPARECIDO" ? "#dc2626" : "#059669";
     const pillX = paddingX;
     const pillY = 24;
@@ -331,7 +217,6 @@ export default function PaginaDetalhes() {
     ctx.textAlign = "left";
     ctx.fillText(statusTexto, pillX + 12, pillY + 26);
 
-    
     const nome = pessoa.nome.toUpperCase();
     const maxNomeW = largura - paddingX * 2;
     ctx.textAlign = "left";
@@ -348,10 +233,14 @@ export default function PaginaDetalhes() {
           line = test;
         } else {
           if (lines.length === maxLines - 1) {
-            
             let shortened = test;
-            while (ctx.measureText(shortened + "…").width > maxW && shortened.length) {
-              shortened = shortened.substring(0, shortened.lastIndexOf(" ")) || shortened.slice(0, -1);
+            while (
+              ctx.measureText(shortened + "…").width > maxW &&
+              shortened.length
+            ) {
+              shortened =
+                shortened.substring(0, shortened.lastIndexOf(" ")) ||
+                shortened.slice(0, -1);
             }
             lines.push(shortened + "…");
             return lines;
@@ -370,17 +259,14 @@ export default function PaginaDetalhes() {
       ctx.fillText(l, paddingX, baseY + idx * 72);
     });
 
-   
     ctx.font = '700 28px "Inter", system-ui';
     ctx.fillStyle = "#e2e8f0";
     ctx.fillText(`${pessoa.idade} anos • ${pessoa.sexo}`, paddingX, topH - 40);
 
-    
     const panelY = topH;
     ctx.fillStyle = "#0b2335";
     ctx.fillRect(0, panelY, largura, altura - panelY);
 
- 
     let cursorY = panelY + 80;
     ctx.textAlign = "left";
     ctx.fillStyle = "#f8fafc";
@@ -392,19 +278,21 @@ export default function PaginaDetalhes() {
     ctx.fillStyle = "#e2e8f0";
     const linhasInfo: string[] = [
       `Data: ${formatarData(pessoa.dataDesaparecimento)}`,
-      pessoa.ultimaOcorrencia?.localDesaparecimentoConcat || pessoa.localDesaparecimento
+      pessoa.ultimaOcorrencia?.localDesaparecimentoConcat ||
+      pessoa.localDesaparecimento
         ? `Local: ${pessoa.ultimaOcorrencia?.localDesaparecimentoConcat || pessoa.localDesaparecimento}`
         : "",
     ].filter(Boolean);
 
-    
     const truncateToWidth = (text: string, maxW: number) => {
       if (ctx.measureText(text).width <= maxW) return text;
-      let lo = 0, hi = text.length;
+      let lo = 0,
+        hi = text.length;
       while (lo < hi) {
         const mid = Math.floor((lo + hi) / 2);
         const sample = text.slice(0, mid) + "…";
-        if (ctx.measureText(sample).width <= maxW) lo = mid + 1; else hi = mid;
+        if (ctx.measureText(sample).width <= maxW) lo = mid + 1;
+        else hi = mid;
       }
       return text.slice(0, lo - 1) + "…";
     };
@@ -743,11 +631,7 @@ export default function PaginaDetalhes() {
                       style={{ scrollbarGutter: "stable" }}
                     >
                       {informacoesOcorrencia.map((info, index) => {
-                        const dataFormatada = format(
-                          new Date(info.data),
-                          "dd/MM/yyyy",
-                          { locale: ptBR },
-                        );
+                        const dataFormatada = formatarData(info.data);
                         return (
                           <div
                             key={info.id}
@@ -1029,7 +913,7 @@ export default function PaginaDetalhes() {
                               anexosFotos.map((f) => ({
                                 src: f.url,
                                 type: "image" as const,
-                                caption: `Avistamento em ${format(new Date(f.data), "dd/MM/yyyy")}`,
+                                caption: `Avistamento em ${formatarData(f.data)}`,
                               })),
                               i,
                             )
@@ -1280,7 +1164,8 @@ export default function PaginaDetalhes() {
                   Cartaz oficial indisponível
                 </h4>
                 <p className="mt-1.5 text-sm text-slate-600">
-                  A API não retornou um cartaz oficial para esta pessoa. Você pode gerar um cartaz compartilhável agora mesmo.
+                  A API não retornou um cartaz oficial para esta pessoa. Você
+                  pode gerar um cartaz compartilhável agora mesmo.
                 </p>
               </div>
             </div>

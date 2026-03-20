@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   overlayVariant,
@@ -8,8 +8,7 @@ import {
   buttonHover,
   buttonTap,
 } from "./ui/motionConfig";
-import { usePessoas } from "@/api/hooks";
-import { PessoaDesaparecida } from "@/api/api";
+import { useInformationModalFacade } from "./hooks/useInformationModalFacade";
 
 interface InformationModalProps {
   isOpen: boolean;
@@ -20,58 +19,22 @@ const InformationModal: React.FC<InformationModalProps> = ({
   isOpen,
   onClose,
 }) => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedPerson, setSelectedPerson] =
-    useState<PessoaDesaparecida | null>(null);
-  const [informationText, setInformationText] = useState("");
-  const [contactName, setContactName] = useState("");
-  const [contactPhone, setContactPhone] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleClose = () => {
-    setSearchTerm("");
-    setSelectedPerson(null);
-    setInformationText("");
-    setContactName("");
-    setContactPhone("");
-    onClose();
-  };
-
-  const { data: pessoas, buscar } = usePessoas();
-
-  useEffect(() => {
-    if (searchTerm.length > 2) {
-      const timeoutId = setTimeout(() => {
-        buscar({
-          nome: searchTerm,
-          status: "DESAPARECIDO",
-          porPagina: 10,
-        });
-      }, 300);
-
-      return () => clearTimeout(timeoutId);
-    }
-  }, [searchTerm]);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!selectedPerson || !informationText.trim()) return;
-
-    setIsSubmitting(true);
-    try {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      setSearchTerm("");
-      setSelectedPerson(null);
-      setInformationText("");
-      setContactName("");
-      setContactPhone("");
-      handleClose();
-    } catch (error) {
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+  const {
+    searchTerm,
+    setSearchTerm,
+    selectedPerson,
+    setSelectedPerson,
+    informationText,
+    setInformationText,
+    contactName,
+    setContactName,
+    contactPhone,
+    setContactPhone,
+    isSubmitting,
+    pessoas,
+    handleClose,
+    handleSubmit,
+  } = useInformationModalFacade({ onClose });
 
   return (
     <AnimatePresence>

@@ -3,16 +3,22 @@ import RippleHero from "@/components/RippleHero";
 import Desaparecidos from "@/components/Desaparecidos";
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
-import { Suspense, useState } from "react";
+import { Suspense } from "react";
 import { FloatingActions } from "@/components/ui/FloatingActions";
 import ModalMapaCasos from "@/components/ui/ModalMapaCasos";
 import ModalEstatisticasAvancadas from "@/components/ui/ModalEstatisticasAvancadas";
 import ModalComoAjudar from "@/components/ui/ModalComoAjudar";
+import { useHomeFacade } from "@/components/hooks/useHomeFacade";
 
 export default function Home() {
-  const [openMapa, setOpenMapa] = useState(false);
-  const [openEstatisticas, setOpenEstatisticas] = useState(false);
-  const [openComoAjudar, setOpenComoAjudar] = useState(false);
+  const {
+    openMapa,
+    setOpenMapa,
+    openEstatisticas,
+    setOpenEstatisticas,
+    openComoAjudar,
+    setOpenComoAjudar,
+  } = useHomeFacade();
   return (
     <main
       className="min-h-screen bg-white  transition-colors"
