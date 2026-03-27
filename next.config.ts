@@ -15,18 +15,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "s3dev.pjc.mt.gov.br",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "s3.pjc.mt.gov.br",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
         hostname: "i.pravatar.cc",
         port: "",
         pathname: "/**",
