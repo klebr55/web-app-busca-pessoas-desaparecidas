@@ -176,4 +176,4 @@ As variáveis abaixo são opcionais para desenvolvimento. Em produção (Vercel 
   - TypeScript 5
   - Tailwind CSS 4.1
   - Framer Motion 12
-- Para dúvidas sobre execução ou ajustes de ambiente, entre em contato pelo LinkedIn informado acima.
+- Para dúvidas sobre execução ou ajustes de ambiente, entre em contato pelo LinkedIn informado acima..
