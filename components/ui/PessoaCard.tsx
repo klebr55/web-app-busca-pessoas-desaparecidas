@@ -131,7 +131,7 @@ export function PessoaCard({ pessoa, className = "" }: PessoaCardProps) {
               window.open(`/${pessoa.id}`, "_blank");
             }}
           >
-            Ver Detalhes
+            Ver Detalhes da Pessoa
           </button>
         </div>
       </div>
